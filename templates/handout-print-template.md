@@ -2,6 +2,8 @@
 
 Use this template to create printable partner, referral partner, or audience-specific handouts.
 
+This is a **blank reusable framework**. Canonical audience-specific handouts should live under `referral-partner-assets/{audience}/`. Partner-specific printable variants should live under `launch-kits/{partner-name}/handouts/` only when materially customized.
+
 ## Asset Status
 
 - Status: Template
@@ -10,7 +12,31 @@ Use this template to create printable partner, referral partner, or audience-spe
 - Source: Reusable template
 - Last reviewed: 2026-05-03
 
-## Recommended Partner Path
+## Source-to-Variant Rule
+
+Use this sequence:
+
+```text
+templates/handout-print-template.md
+        ↓
+referral-partner-assets/{audience}/printable-handout.md
+        ↓
+launch-kits/{partner-name}/handouts/printable-{audience-or-niche}-handout.md
+        ↓
+exports / Google Docs / PDFs / Canva / Wix
+```
+
+Do not create a partner-specific handout unless it includes partner-specific details such as contact information, QR/application link, launch strategy, local market notes, or custom audience positioning.
+
+## Recommended Paths
+
+Canonical source path:
+
+```text
+referral-partner-assets/{audience}/printable-handout.md
+```
+
+Partner variant path:
 
 ```text
 launch-kits/{partner-name}/handouts/printable-{audience-or-niche}-handout.md
@@ -19,65 +45,103 @@ launch-kits/{partner-name}/handouts/printable-{audience-or-niche}-handout.md
 ## Template
 
 ```markdown
-# [Audience/Niche] Printable Handout
+# Printable [Audience / Niche] Handout
 
-## Asset Status
+**Business Funding Referral Resource**  
+**For:** [Target referral source audience]  
+**Powered by Moonshine Capital**  
+**Partner Contact:** [Partner Name]
 
-- Status: Draft
-- Owner: Moonshine Capital
-- Partner: [Partner Name]
-- Audience: [Audience]
-- Format: Printable handout
-- Last reviewed: YYYY-MM-DD
+---
 
-## Header
+# [Short Pain-Based Headline]
 
-[Short headline]
+[Short opening section. Speak to the referral source's network and the painful capital problem they already see.]
 
-## Subheader
+You do not need to become a lender.
 
-[One sentence explaining the business problem or referral use case.]
+You just need a trusted funding resource behind you.
 
-## Who This Is For
+[Partner Name] and Moonshine Capital help business owners explore funding options when [specific pain category] becomes the bottleneck.
 
-- [Audience 1]
-- [Audience 2]
-- [Audience 3]
+---
 
-## Common Reasons To Start A Conversation
+## Fast Capital. Real Business Problems. One Simple Application.
 
-- [Reason 1]
-- [Reason 2]
-- [Reason 3]
+- [Money-forward offer or speed angle]
+- [Funding range or use-case angle]
+- [Simple process or no-obligation angle]
+- [Top 3–5 relevant funding categories]
+- [Audience-specific benefit]
 
-## Simple Process
+---
 
-1. Complete a short intake.
-2. Review the business profile.
-3. Identify possible paths.
-4. Discuss next steps if there is a potential fit.
+## Why This Helps You Win
 
-## What To Have Ready
+You can:
 
-- Basic business information
-- Estimated monthly revenue
-- Desired use of funds
-- Relevant documents if requested
+- help customers solve urgent money problems
+- save stalled sales, jobs, deals, repairs, or relationships
+- give your network access to capital options without becoming the lender
+- create a referral revenue channel from problems already happening around you
+- let [Partner Name] handle the funding conversation while you stay focused on your business
 
-## Referral Note
+---
 
-[Short note referral partners can say to a business owner.]
+## Common Pain Points
 
-## Contact / CTA
+### [Pain Point 1]
 
-- Partner: [Partner Name]
-- Phone: [Phone]
-- Email: [Email]
-- Link: [Application or referral link]
+[Short, vivid pain copy.]
 
-## Responsible Use Note
+### [Pain Point 2]
 
-Use educational language. Do not promise outcomes, terms, or timing.
+[Short, vivid pain copy.]
+
+### [Pain Point 3]
+
+[Short, vivid pain copy.]
+
+---
+
+## Capital Options That May Help
+
+- **[Offer 1]:** [Short benefit line]
+- **[Offer 2]:** [Short benefit line]
+- **[Offer 3]:** [Short benefit line]
+- **[Offer 4]:** [Short benefit line]
+
+---
+
+## Best-Fit Referrals Usually Have
+
+- an active business or financeable startup profile
+- business revenue, income, receivables, collateral, or another realistic repayment source
+- a real use for funds
+- a time-sensitive or clearly defined capital need
+- willingness to complete a short application
+
+---
+
+# Know Someone Who Needs Capital?
+
+**Scan to Start the Funding Review**
+
+**QR Code:** `[Insert QR Code Here]`  
+**Application Link:** `[Insert Partner Application Link]`
+
+**[Partner Name]**  
+Commercial Funding Partner  
+Moonshine Capital  
+
+**Phone:** `[Insert Phone]`  
+**Email:** `[Insert Email]`
+
+---
+
+## Footer
+
+Funding is subject to application, review, provider criteria, and business profile. Approval, amount, terms, cost, and timing are not guaranteed. Moonshine Capital does not provide legal, tax, or accounting advice.
 ```
 
 ## Export Notes
@@ -88,5 +152,7 @@ Recommended exports:
 - PDF
 - Canva flyer
 - Wix resource download
+
+Exports are not source-of-truth. Regenerate or update exports from markdown source when copy changes.
 
 Keep the print version clean, short, and easy to scan.
