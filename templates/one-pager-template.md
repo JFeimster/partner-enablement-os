@@ -1,6 +1,8 @@
 # One-Pager Template
 
-Use this template to create a concise partner, referral partner, niche, or audience-specific one-pager.
+Use this template to create a print-ready, partner-first referral handout for a specific audience, niche, or use case.
+
+This template is based on the Darwin Hanneman trucking / equipment / construction referral one-pager pattern: lead with the referral partner's win, hit real pain points, show concrete capital angles, and keep compliance to one small footer instead of burying the page in legal fog.
 
 ## Asset Status
 
@@ -12,7 +14,14 @@ Use this template to create a concise partner, referral partner, niche, or audie
 
 ## Purpose
 
-This template helps partners create simple one-page resources that explain who they help, what problem they solve, and what the next responsible step is.
+This template helps create one-page resources that a partner can print, share, email, or use as a conversation starter with referral sources.
+
+The one-pager should answer four questions fast:
+
+1. Why should this referral source care?
+2. What painful situation does their network already experience?
+3. What capital options or review paths may help?
+4. What is the simple next step?
 
 ## Recommended Partner Path
 
@@ -20,79 +29,269 @@ This template helps partners create simple one-page resources that explain who t
 launch-kits/{partner-name}/one-pagers/{audience-or-niche}-one-pager.md
 ```
 
+## Core Copy Rules
+
+- Make the referral source the hero.
+- Focus on how they help their existing customers, clients, audience, or network.
+- Mention referral revenue or new revenue-channel potential when appropriate.
+- Use emotionally specific pain points instead of generic use-case lists.
+- Use concrete offer cards instead of vague product taxonomy.
+- Keep product names short and white-labeled.
+- Do not repeat “Moonshine Capital” in every product or offer name; brand is already implied.
+- Avoid turning the handout into internal training.
+- Avoid long process explanations unless the audience needs them.
+- Use one concise compliance footer at the bottom.
+
+## Strong Offer Naming Examples
+
+Use names like:
+
+- Fast Working Capital: Up to $25K for Urgent Business Needs
+- Equipment & Truck Financing: Keep Cash in the Business
+- Invoice & Receivables Funding: Stop Waiting to Get Paid
+- Larger Funding Reviews: Up to $2M for Qualified Businesses
+- Business Line Access: Working Capital Without the Weekly Fire Drill
+- Startup Funding Path: Launch Capital for Qualified Founders
+- Real Estate Capital Track: Property-Backed Funding for Serious Deals
+
 ## Template
 
 ```markdown
-# [Audience/Niche] Referral One-Pager
+# [Audience / Niche] Funding Referral Resource
 
-## Asset Status
+**For:** [Target referral source audience]  
+**Powered by Moonshine Capital**  
+**Partner Contact:** [Partner Name]
 
-- Status: Draft
-- Owner: Moonshine Capital
-- Partner: [Partner Name]
-- Audience: [Audience]
-- Use Case: Referral education | Client handout | Partner introduction
-- Last reviewed: YYYY-MM-DD
+---
 
-## Quick Summary
+# [Partner-Centered Headline]
 
-[One to two sentences explaining who this resource is for and what problem it helps address.]
+[Open with the referral source's opportunity, not the funding product. Make it clear they can help their network solve painful capital problems, protect relationships, save stalled deals, and potentially create a referral revenue channel.]
 
-## Who This Helps
+Example headline patterns:
 
-This resource is designed for:
+- Turn Cash-Flow Problems Into Saved Deals, Helped Customers & Referral Revenue
+- Your Network Already Needs Capital. Become the Resource They Call First.
+- Help Customers Move Forward When Funding Is the Bottleneck
+- Turn Stalled Deals Into Funding Conversations
 
-- [Audience segment 1]
-- [Audience segment 2]
-- [Audience segment 3]
+---
 
-## Common Situation
+## Fast Capital. Real Business Problems. One Simple Application.
 
-Many business owners need a next step when:
+- [Money-forward offer or speed angle]
+- [Funding range or use-case angle]
+- [Simple process or no-obligation angle]
+- [Top 3–5 relevant funding categories]
+- [Audience-specific benefit]
 
-- [Situation 1]
-- [Situation 2]
-- [Situation 3]
+Example:
 
-## How We Help
+- Same-day funding options may be available
+- Up to $25K for urgent business needs
+- Larger funding reviews from $10K to $2M
+- Equipment, truck, invoice, working capital, and growth funding paths
+- Simple application
+- No obligation to accept an offer
 
-Moonshine Capital helps business owners explore possible capital options based on business profile, use case, and provider criteria.
+---
 
-## Good Fit Signals
+## If Your Network Has [Pain Category], You Can Become the Resource
 
-A conversation may be worth having when the business owner:
+[Speak directly to the referral source. Explain that their customers, clients, audience, or business network already faces this problem. Position the partner/Moonshine Capital as the back-office funding resource that helps them be more valuable without becoming a lender.]
 
-- Has active business activity
-- Needs capital for a clear business purpose
-- Can provide basic business details
-- Is open to reviewing possible options
+You may be able to:
 
-## Simple Referral Language
+- help customers solve urgent money problems
+- save stalled sales, jobs, deals, repairs, or relationships
+- give your network access to capital options without becoming the lender
+- create a referral revenue channel from problems already happening around you
+- let [Partner Name] handle the funding conversation while you stay focused on your business
 
-[Provide a short referral script here.]
+---
 
-## Next Step
+# [Pain Point 1: Emotionally Specific Situation]
 
-[Explain the next responsible action.]
+[Describe one painful, recognizable situation in short, punchy copy. Avoid generic bullets. Make the reader think, “I know someone dealing with this.”]
 
-## CTA
+**Best capital angle:** [Offer 1], [Offer 2], or [Offer 3].
 
-- Button text: [CTA]
-- Link: [URL]
+---
 
-## Compliance Notes
+# [Pain Point 2: Emotionally Specific Situation]
 
-- Approval, terms, amounts, and timing are not guaranteed.
-- Provider criteria apply.
-- Keep language educational and responsible.
+[Describe the second pain point. Tie it to the audience's customers, clients, or network.]
+
+**Best capital angle:** [Offer 1], [Offer 2], or [Offer 3].
+
+---
+
+# [Pain Point 3: Emotionally Specific Situation]
+
+[Describe the third pain point. Keep it vivid, practical, and conversion-focused.]
+
+**Best capital angle:** [Offer 1], [Offer 2], or [Offer 3].
+
+---
+
+# Capital Options That Help Customers Move Again
+
+## [Offer Name 1]
+
+For [specific business owner profile] who need [specific capital use case].
+
+**Highlights:**
+
+- [Specific amount/speed/qualification/use-case highlight]
+- [Specific audience fit]
+- [Specific benefit]
+- [Simple next-step or process benefit]
+
+**Best fit:** [When this offer makes sense.]
+
+**Trigger line:**  
+[Short emotional line that makes the offer memorable.]
+
+---
+
+## [Offer Name 2]
+
+For [specific business owner profile] who need [specific capital use case].
+
+**Highlights:**
+
+- [Specific amount/speed/qualification/use-case highlight]
+- [Specific audience fit]
+- [Specific benefit]
+- [Simple next-step or process benefit]
+
+**Best fit:** [When this offer makes sense.]
+
+**Trigger line:**  
+[Short emotional line that makes the offer memorable.]
+
+---
+
+## [Offer Name 3]
+
+For [specific business owner profile] who need [specific capital use case].
+
+**Highlights:**
+
+- [Specific amount/speed/qualification/use-case highlight]
+- [Specific audience fit]
+- [Specific benefit]
+- [Simple next-step or process benefit]
+
+**Best fit:** [When this offer makes sense.]
+
+**Trigger line:**  
+[Short emotional line that makes the offer memorable.]
+
+---
+
+## [Optional Offer Name 4]
+
+Use only if the one-pager has room and the offer strongly matches the audience.
+
+---
+
+# Why This Helps You Win
+
+[Speak to the referral source's upside. Keep this short and partner-centered.]
+
+You can:
+
+- help customers who are stuck because funding is the bottleneck
+- save sales, jobs, deals, repairs, loads, or relationships that may otherwise die
+- give your network access to a funding resource without becoming the lender
+- create a referral revenue stream from problems already happening around you
+- let [Partner Name] and Moonshine Capital handle the funding review
+
+You become the valuable connector.
+
+---
+
+# Best-Fit Referrals
+
+Best-fit referrals usually have:
+
+- an active business
+- business revenue or another realistic repayment source
+- a real use for funds
+- a time-sensitive or clearly defined capital need
+- willingness to complete a short application
+
+Optional line:
+
+Not ideal for people with no active business, no revenue or repayment path, no clear use of funds, or expectations of guaranteed approval.
+
+---
+
+# Know Someone Who Needs Capital?
+
+[Short CTA sentence focused on the next action.]
+
+Example:
+
+One stop. Multiple funding paths. Simple application. No obligation.
+
+Help them explore options for:
+
+- [Use case 1]
+- [Use case 2]
+- [Use case 3]
+- [Use case 4]
+
+## Scan to Start the Funding Review
+
+**QR Code:** `[Insert QR Code Here]`  
+**Application Link:** `[Insert Partner Application Link]`
+
+**[Partner Name]**  
+Commercial Funding Partner  
+Moonshine Capital  
+
+**Phone:** `[Insert Phone]`  
+**Email:** `[Insert Email]`
+
+---
+
+## Footer
+
+Funding is subject to application, review, provider criteria, and business profile. Approval, amount, terms, cost, and timing are not guaranteed. Moonshine Capital does not provide legal, tax, or accounting advice.
 ```
+
+## Sections to Avoid Unless Specifically Needed
+
+Do not default to including:
+
+- long referral process explanations
+- long “what may not be a fit” sections
+- internal routing logic
+- training-style language for the referral source
+- repeated disclaimers after every product
+- generic lists of every possible use case
+- backend provider names
+- backend product names that should remain white-labeled
 
 ## Publishing Notes
 
-This can be adapted into Google Docs, PDF handouts, Wix pages, Notion pages, email attachments, or Canva flyers.
+This can be adapted into:
+
+- PDF handouts
+- Google Docs
+- Wix resource pages
+- Notion pages
+- email attachments
+- Canva flyers
+- sales leave-behinds
+- QR-code referral sheets
 
 ## Related Files
 
 - `templates/handout-print-template.md`
 - `templates/outreach-script-pack-template.md`
 - `systems/github/markdown-asset-standards.md`
+- `launch-kits/darwin-hanneman/one-pagers/trucking-equipment-finance-one-pager.md`
