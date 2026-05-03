@@ -1,47 +1,78 @@
-# Equipment Trucking Construction Site Prompt
+# Flash-UI Prompt — Equipment / Trucking / Construction Referral Site
 
-Use this prompt to create a landing page for equipment, trucking, and construction-related business audiences.
+**Prompt Type:** Flash-UI static landing page prompt  
+**Use Case:** Vertical funding referral site / niche landing page  
+**Audience:** Equipment dealers, trucking operators, repair shops, contractors, construction business owners  
+**Partner-Specific:** No  
+**Primary Editable Fields:** Application link, booking link, tracked CTA, QR code  
 
-## Asset Status
-
-- Status: Ready
-- Owner: Moonshine Capital
-- Audience: Internal Operator
-- Platform: Flash-UI
-- Last reviewed: 2026-05-03
+---
 
 ## Prompt
 
-```text
-Create a practical landing page for a Moonshine Capital partner focused on equipment, trucking, and construction-related businesses.
+Create a gritty, high-converting static landing page for a commercial funding referral site targeting equipment dealers, trucking operators, repair shops, contractors, and construction business owners.
 
-Goal: help business owners understand how to start a capital review when they need funds for equipment, repairs, projects, expansion, or working capital.
+Brand: Moonshine Capital  
+Page name: Equipment & Working Capital Funding Options  
+Audience: blue-collar business owners and referral sources in trucking, equipment, and construction.  
+Goal: Drive funding applications for equipment purchases, repairs, working capital, job mobilization, payroll, inventory, and cash-flow gaps.
+
+Style:
+Blue-collar fintech. Bold, rugged, modern. Dark background, steel gray, safety orange or muted gold accent, strong typography, equipment/trucking/construction visual cues. Professional but not soft. No Wall Street fluff.
+
+Core message:
+When equipment breaks, jobs move, payroll hits, or cash flow gets tight — waiting on the bank can cost more than the funding.
 
 Sections:
-1. Hero
-2. Common business situations
-3. Who this helps
-4. Funding review process
-5. What to prepare
-6. Partner support section
-7. FAQ
-8. Final CTA
-9. Responsible-use footer
 
-Design direction:
-- bold but professional
-- field-operator friendly
-- clean cards
-- strong CTA
-- mobile friendly
+1. Hero headline:
+   “Funding Options for the Businesses That Keep the Wheels Turning.”
+2. Subheadline:
+   “Explore working capital, equipment, repair, and cash-flow funding paths with one short application.”
+3. CTA buttons:
+   “Check Funding Options”
+   “Talk to a Funding Partner”
+4. Pain section:
+   - truck repairs
+   - equipment purchases
+   - fuel and payroll
+   - job startup costs
+   - slow-paying customers
+   - seasonal cash flow
+   - bank delays
+5. Funding use cases:
+   - equipment purchase
+   - equipment repair
+   - working capital
+   - contract mobilization
+   - expansion
+   - inventory/materials
+   - bridge cash flow
+6. How it works:
+   Step 1: Complete short application.
+   Step 2: Business profile is reviewed.
+   Step 3: Funding paths are explored.
+   Step 4: You decide if an option makes sense.
+7. Referral source block:
+   “Equipment dealers, repair shops, and industry pros: give your customers a next step when financing is the bottleneck.”
+8. QR-code placeholder.
+9. Compliance footer:
+   “Funding is not guaranteed. Approval, terms, amounts, and timing depend on applicant qualifications and provider requirements.”
 
-Tone: direct, useful, and no fluff.
+Placeholder links:
 
-Use careful language. Do not promise approval, amounts, terms, or timelines.
-```
+- Application: `[Partner Application Link]`
+- Booking: `[Partner Booking Link]`
+- Tracked CTA: `[Tracked CTA Link]`
+- QR Code: `[QR Code]`
 
-## Suggested GitHub Output Path
+Prototype placeholder links if needed:
 
-```text
-launch-kits/{partner-name}/websites/flash-ui-prompts/equipment-trucking-construction-site.md
-```
+- Application: `https://bit.ly/fundingwithdarwin`
+- Booking: `#book-call`
+
+Generate static HTML/CSS/JS with a strong mobile-first layout, hero CTA, trust blocks, and printable handout CTA.
+
+## Generated Site Output Note
+
+If Flash-UI generates static site files such as `index.html`, `styles.css`, and `script.js`, store production-ready site code in a separate deployment repo or an `exports/flash-ui/` reference folder. Do not store generated runtime code inside partner launch kits unless the site is truly partner-specific.
