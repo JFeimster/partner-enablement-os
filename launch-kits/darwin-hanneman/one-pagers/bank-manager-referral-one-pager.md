@@ -1,272 +1,248 @@
-# Bank Manager Referral One-Pager
+# Bank Manager Funding Referral Resource
 
-**Partner:** Darwin Hanneman  
-**Brand:** Moonshine Capital  
-**Audience:** Bank Managers, Branch Managers, Business Bankers, Commercial Bankers, Credit Union Business Banking Contacts  
-**Asset Type:** Referral Partner One-Pager  
-**Version:** v1  
-**Suggested GitHub Path:** `launch-kits/darwin-hanneman/one-pagers/bank-manager-referral-one-pager.md`
+**For:** Bank Managers, Branch Managers, Business Bankers, Commercial Bankers & Credit Union Business Contacts  
+**Powered by Moonshine Capital**  
+**Partner Contact:** Darwin Hanneman
 
 ---
 
-# When the Bank Has to Say “Not Right Now,” Give the Business Owner a Responsible Next Step
+# Turn Bank Declines Into Protected Relationships, Better Client Outcomes & Future Bankability
 
-## A Commercial Funding Referral Resource for Business Clients Who Do Not Fit Traditional Bank Criteria Today
+Your business clients do not stop needing capital just because they do not fit the bank’s box today.
 
-Not every business owner who needs capital is a bad business owner.
+Some are too early.  
+Some are growing too fast.  
+Some lack collateral.  
+Some have imperfect credit.  
+Some need speed the bank cannot provide.  
+Some have a viable business but not a bankable file right now.
 
-Sometimes they are early.  
-Sometimes they are growing fast.  
-Sometimes they lack collateral.  
-Sometimes their credit profile is imperfect.  
-Sometimes the bank’s timeline does not match the business opportunity.  
-Sometimes the deal simply does not fit the bank’s underwriting box today.
+You do not need to change your underwriting standards.
 
-That is where Darwin Hanneman and Moonshine Capital may be able to help.
+You just need a trusted next-step resource.
 
----
-
-# What Darwin / Moonshine Capital Does
-
-Darwin Hanneman works with Moonshine Capital as a relationship-first commercial funding partner.
-
-He helps business owners explore practical funding options through one simple application. The business profile is reviewed to determine what funding paths may be available based on provider criteria.
-
-This can be useful when a business client needs a next step after:
-
-- a bank decline
-- a delayed bank decision
-- insufficient collateral
-- limited time in business
-- inconsistent cash flow
-- credit profile challenges
-- documentation gaps
-- working capital needs
-- equipment or repair needs
-- payroll, inventory, materials, or job-start costs
-
-The goal is not to replace the bank relationship.
-
-The goal is to help the business owner explore possible options when traditional bank financing is not currently available, not fast enough, or not the right fit.
+Darwin Hanneman and Moonshine Capital help business owners explore funding options when traditional bank financing is delayed, unavailable, or not the right fit today.
 
 ---
 
-# Why a Bank Manager Would Refer a Client
+## Fast Capital. Real Business Problems. One Simple Application.
 
-A referral gives the business owner a responsible next step instead of sending them into the wild west of random online lending ads, spammy loan brokers, and “guaranteed approval” nonsense dressed up like a fintech miracle.
-
-A bank manager may refer a client when:
-
-- the client does not qualify for a bank loan right now
-- the bank wants to preserve the relationship
-- the client needs speed the bank cannot provide
-- the client needs working capital, equipment funds, or bridge cash flow
-- the client may become bankable later
-- the bank wants to be helpful without changing underwriting standards
-
-A good referral can protect the long-term client relationship.
-
-Instead of saying, “No, good luck,” the bank can say:
-
-> “You may not fit our criteria right now, but I know someone who may be able to help you explore other funding options.”
-
-That is a much better client experience.
+- Same-day funding options may be available
+- Up to $25K for urgent business needs
+- Larger funding reviews from $10K to $2M
+- Working capital, equipment, invoice, line access, startup, and growth funding paths
+- Simple application
+- No obligation to accept an offer
 
 ---
 
-# Who Is a Good Referral?
+## If Your Bank Has Clients You Cannot Help Right Now, You Can Still Be the Hero
 
-A good referral may be a business owner who needs funding for:
+A bank “not right now” does not have to become a dead relationship.
 
-## Working Capital
+When a business owner cannot qualify today, the wrong move is sending them into the internet swamp of random lenders, spam calls, and miracle-money nonsense.
 
-Cash-flow gaps, payroll, inventory, marketing, operations, or short-term business needs.
+The better move is giving them a responsible next step.
 
-## Equipment or Repairs
+That means you may be able to:
 
-Equipment purchases, repairs, replacement, upgrades, or keeping revenue-producing assets active.
+- preserve goodwill with clients you cannot fund today
+- give declined or delayed clients a cleaner path than random online lending ads
+- stay focused on bankable deals while Darwin handles the alternative funding conversation
+- help the business owner explore options that may bridge them back toward future bankability
+- strengthen your reputation as the banker who still tried to help
 
-## Trucking or Construction Needs
-
-Truck repairs, job mobilization, materials, fuel, payroll, project startup costs, or delayed receivables.
-
-## Business Growth
-
-Expansion, new contracts, added staff, inventory increases, or seasonal demand.
-
-## Bank Decline or Delay
-
-The business owner may be viable, but the bank cannot help right now due to underwriting criteria, timing, collateral, credit, documentation, or revenue history.
+When the bank has to say “not right now,” you can still give the client a door.
 
 ---
 
-# Who May Not Be a Good Fit?
+# The Client Is Solid. The File Isn’t Bankable Yet.
 
-To keep expectations clean, Darwin should not be positioned as a magic wand for every situation.
+Sometimes the business owner is not a bad operator.
 
-A business owner may not be a fit if:
+They may have revenue.  
+They may have customers.  
+They may have contracts.  
+They may have equipment needs.  
+They may have a real business problem.
 
-- they have no active business
-- they have no realistic revenue or repayment path
-- they are looking for guaranteed approval
-- they expect free money
-- they are unwilling to provide basic business information
-- they need legal, tax, or accounting advice instead of funding options
-- they are already in severe distress with no path forward
+But the file does not fit today because of collateral, credit, time in business, documentation, cash-flow timing, or underwriting policy.
 
-Moonshine Capital can help explore possible funding paths, but not every business will qualify for an option.
+That is not always the end of the road.
 
-That honesty protects everyone.
+**Best capital angle:** Fast Working Capital, Flex Revenue Advance, Business Line Access, Equipment Financing, or Larger Funding Reviews.
 
 ---
 
-# How the Referral Process Works
+# The Opportunity Cannot Wait for a Slow Approval Cycle
 
-## Step 1 — Banker Makes the Introduction or Shares the Link
+A business owner may need payroll, materials, inventory, equipment, repairs, or job-start capital before a traditional process can move.
 
-The bank manager can introduce the client to Darwin or share the application link / QR code.
+The contract is ready.  
+The equipment is needed now.  
+The repair is urgent.  
+The payroll date is not moving.  
+The opportunity has an expiration date.
 
-## Step 2 — Client Completes a Short Application
+Slow money can cost the client the job.
 
-The business owner provides basic business information so the funding profile can be reviewed.
-
-## Step 3 — Funding Paths Are Reviewed
-
-Moonshine Capital reviews the business profile to determine what options may be available based on provider criteria.
-
-## Step 4 — Client Gets a Practical Next Step
-
-If there may be a fit, the client receives next-step guidance.
-
-If there is not a fit, the client is told clearly.
-
-No fake promises. No pressure circus. No “everyone qualifies” carnival tent.
+**Best capital angle:** Fast Working Capital, Business Line Access, Invoice & Receivables Funding, or Equipment & Truck Financing.
 
 ---
 
-# What Happens After the Client Applies?
+# The Client May Become Bankable Later — If They Survive the Gap Now
 
-After the client submits the application:
+Some business owners are not ready for bank financing today, but they are not hopeless.
 
-1. The business profile is reviewed.
-2. The client may be contacted for clarification or additional information.
-3. Possible funding paths are evaluated.
-4. The client is informed of next steps if an option may be available.
-5. Approval, funding amount, terms, cost, and timing depend on provider criteria and applicant qualifications.
+They may need a bridge, a cleanup period, stronger revenue history, better documentation, or capital to keep operations moving while the business matures.
 
-The bank manager does not need to underwrite the deal, explain alternative financing products, or become responsible for the outcome.
+Helping them find a responsible next step now may protect the relationship long enough for them to become a stronger bank client later.
 
-The referral simply gives the business owner a responsible next step.
+**Best capital angle:** Business Line Access, Structured Growth Funding, Equipment Financing, Startup Funding Path, or Larger Funding Reviews.
 
 ---
 
-# Why This Protects the Bank Relationship
+# Capital Options That Give Clients a Next Step
 
-When a client cannot be helped by the bank today, they still remember whether the banker tried to help.
+## Fast Working Capital: Up to $25K for Urgent Business Needs
 
-A responsible referral can help the bank:
+For active business owners who need fast capital for payroll, repairs, materials, inventory, vendor payments, insurance, or short-term cash-flow gaps.
 
-- preserve goodwill
-- avoid abandoning the client after a decline
-- remain the trusted primary banking relationship
-- support future bankability
-- reduce client frustration
-- provide a cleaner alternative to random online lending searches
+**Highlights:**
 
-The best version of this relationship is not:
+- Same-day funding may be available
+- Up to $25,000 for eligible files
+- Personal credit as low as 500 may be considered
+- No docs may be required for eligible applicants
+- Fast review for active businesses with revenue
 
-> “The bank said no, so go somewhere else.”
+**Best fit:** when the business has a real short-term funding need and the bank timeline cannot meet the urgency.
 
-The better version is:
-
-> “The bank may not be the right fit today, but here is a responsible resource that may help you explore other options.”
-
-That keeps the banker positioned as a trusted advisor.
+**Trigger line:**  
+A payroll date, repair bill, or contract deadline will not wait for a committee meeting.
 
 ---
 
-# What Claims Should Not Be Made
+## Business Line Access: Working Capital Without the Weekly Fire Drill
 
-Please do not tell clients:
+For established businesses that need flexible access to working capital over time instead of constantly scrambling for one-time cash.
 
-- “You are guaranteed to get approved.”
-- “Everyone qualifies.”
-- “You will get funded today.”
-- “Credit does not matter.”
-- “You can get any amount you want.”
-- “Moonshine Capital approves what banks deny.”
-- “This is free money.”
-- “The bank failed you.”
-- “This will definitely solve your problem.”
+**Highlights:**
 
-Better language:
+- Useful for recurring cash-flow gaps
+- Can support payroll timing, inventory, materials, operating costs, and job mobilization
+- Helps businesses manage timing gaps without starting over every time
+- Stronger fit for operators with active revenue and a clearer repayment profile
 
-- “They may be able to help you explore funding options.”
-- “Approval depends on your business profile.”
-- “Funding amount, terms, cost, and timing are not guaranteed.”
-- “The application helps determine what options may be available.”
-- “This may be a responsible next step if traditional financing is not a fit right now.”
+**Best fit:** when the client needs a financial shock absorber, not just a one-time bandage.
+
+**Trigger line:**  
+Some clients do not need a rescue. They need breathing room.
 
 ---
 
-# Simple Referral Language for Bankers
+## Equipment & Truck Financing: Keep Cash in the Business
 
-Use this when introducing Darwin:
+For businesses that need trucks, trailers, work vehicles, machinery, tools, or revenue-producing equipment without draining cash reserves.
 
-> “Darwin works with Moonshine Capital and helps business owners explore possible funding options when traditional bank financing is not available, delayed, or not the right fit. I cannot guarantee an outcome, but he may be able to help you understand what options could be available based on your business profile.”
+**Highlights:**
 
-Shorter version:
+- Commercial truck and trailer financing
+- Heavy equipment and machinery financing
+- Business-use vehicle financing
+- Equipment purchases, upgrades, or replacements
+- Designed for assets that help the business generate revenue
 
-> “You may not fit our bank criteria right now, but Darwin may be able to help you explore other funding options through Moonshine Capital.”
+**Best fit:** when the asset supports the business but the bank cannot move fast enough or the file does not fit traditional criteria today.
+
+**Trigger line:**  
+If the equipment makes money, the funding path should understand the asset.
 
 ---
 
-# QR Code Placeholder
+## Larger Funding Reviews: Up to $2M for Qualified Businesses
 
-## Scan to Start the Application
+For stronger businesses with revenue, documentation, and larger capital needs tied to expansion, equipment, contracts, working capital, refinancing, or growth.
 
+**Highlights:**
+
+- Funding reviews from $10,000 up to $2,000,000
+- Larger capital options for qualified businesses
+- Terms may range from short-term working capital to longer structured options
+- Useful for expansion, equipment, operating capital, project capital, and business growth
+- Best for businesses with stronger revenue, documentation, and repayment profile
+
+**Best fit:** when the business has enough strength to support a larger capital review, but the bank is not the right fit today.
+
+**Trigger line:**  
+Some clients need more than a small patch. They need capital that lets the business keep moving.
+
+---
+
+# Why This Helps You Win
+
+You already see the clients who fall outside the box.
+
+A client gets declined.  
+A decision is delayed.  
+Collateral is not enough.  
+Credit is not clean enough.  
+Time in business is too short.  
+The bank process is too slow for the business need.
+
+Instead of letting the relationship go cold, you can point them to Darwin.
+
+You help the client.  
+You protect the relationship.  
+You stay focused on bank-fit business.  
+You may help the client survive the gap and become more bankable later.
+
+Darwin and Moonshine Capital handle the funding review.
+
+You remain the trusted banking relationship.
+
+---
+
+# Best-Fit Referrals
+
+Best-fit referrals usually have:
+
+- an active business or financeable startup profile
+- business revenue, income, collateral, receivables, or another realistic repayment source
+- a real use for funds
+- a funding need the bank cannot support today
+- willingness to complete a short application
+
+Not ideal for people with no active business, no repayment path, no clear use of funds, or expectations of guaranteed approval.
+
+---
+
+# Have a Business Client Who Needs a Next Step?
+
+One stop. Multiple funding paths. Simple application. No obligation.
+
+Help them explore options for:
+
+- urgent working capital
+- equipment or truck needs
+- unpaid invoices or receivables
+- payroll, inventory, materials, or operating costs
+- larger business funding
+
+## Scan to Start the Funding Review
+
+**QR Code:** `[Insert QR Code Here]`  
 **Application Link:** `[Insert Darwin Application Link]`
-
-**QR Code:** `[Insert QR Code Here]`
-
----
-
-# Contact
 
 **Darwin Hanneman**  
 Commercial Funding Partner  
 Moonshine Capital  
 
 **Phone:** `[Insert Phone]`  
-**Email:** `[Insert Email]`  
-**Application:** `[Insert Application Link]`
+**Email:** `[Insert Email]`
 
 ---
 
-# Compliance Footer
+## Footer
 
-Moonshine Capital helps business owners explore potential funding options based on their business profile. Approval, funding amount, terms, cost, and timing are not guaranteed and depend on provider criteria, applicant information, documentation, and underwriting review. Moonshine Capital does not provide legal, tax, or accounting advice. Referral partners should not represent that funding is guaranteed or that any applicant will qualify for a specific product, amount, rate, or timeline.
-
----
-
-# Suggested Notion Status Update
-
-**Asset:** Darwin Bank Manager Referral One-Pager  
-**Status:** Drafted  
-**Next Step:** Review with Jason, revise if needed, then save to GitHub.
-
----
-
-# Suggested Export Filename
-
-`Darwin_Hanneman_Bank_Manager_Referral_One_Pager_v1_2026-05.md`
-
-Optional printable export:
-
-`Darwin_Hanneman_Bank_Manager_Referral_One_Pager_Printable_v1_2026-05.pdf`
-
----
-
-# Next Recommended Deliverable
-
-`launch-kits/darwin-hanneman/one-pagers/accountant-attorney-referral-one-pager.md`
+Funding is subject to application, review, provider criteria, and business profile. Approval, amount, terms, cost, and timing are not guaranteed. Moonshine Capital does not provide legal, tax, or accounting advice.
