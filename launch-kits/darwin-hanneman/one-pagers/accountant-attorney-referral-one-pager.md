@@ -1,311 +1,252 @@
-# Accountant / Attorney Referral One-Pager
+# Accountant / Attorney Funding Referral Resource
 
-**Partner:** Darwin Hanneman  
-**Brand:** Moonshine Capital  
-**Audience:** Accountants, CPAs, Bookkeepers, Tax Professionals, Small Business Attorneys, Business Formation Attorneys  
-**Asset Type:** Referral Partner One-Pager  
-**Version:** v1  
-**Suggested GitHub Path:** `launch-kits/darwin-hanneman/one-pagers/accountant-attorney-referral-one-pager.md`
+**For:** Accountants, CPAs, Bookkeepers, Tax Professionals & Small Business Attorneys  
+**Powered by Moonshine Capital**  
+**Partner Contact:** Darwin Hanneman
 
 ---
 
-# When Your Business Client Needs Capital, Give Them a Practical Next Step
+# Turn Client Cash Problems Into Better Guidance, Protected Relationships & Referral Revenue
 
-## A Commercial Funding Referral Resource for Accountants, Bookkeepers, and Small Business Attorneys
+Your clients already bring you the money problems before they bring them to a lender.
 
-Business owners often ask their trusted advisors for help before they ever talk to a lender.
+Taxes are due.  
+Payroll is tight.  
+Receivables are late.  
+The business is growing faster than cash flow.  
+A client is forming, buying, expanding, or restructuring a company and suddenly needs capital.  
+The bank is moving too slowly — or already said “not right now.”
 
-They ask their accountant when cash flow gets tight.  
-They ask their bookkeeper when payroll, taxes, or receivables become stressful.  
-They ask their attorney when they are forming, buying, restructuring, expanding, or trying to survive a business problem.
+You do not need to become a lender.
 
-You may not be the lender.
+You just need a trusted funding resource behind you.
 
-But you may be the first person who sees the funding problem clearly.
-
-That is where Darwin Hanneman and Moonshine Capital may be able to help.
-
----
-
-# What Darwin / Moonshine Capital Does
-
-Darwin Hanneman works with Moonshine Capital as a relationship-first commercial funding partner.
-
-He helps business owners explore practical funding options through one simple application. The business profile is reviewed to determine what funding paths may be available based on provider criteria.
-
-The goal is not to replace the advisor-client relationship.
-
-The goal is to give your client a responsible next step when capital becomes the obstacle.
+Darwin Hanneman and Moonshine Capital help business owners explore funding options when capital becomes the obstacle.
 
 ---
 
-# Why Accountants and Attorneys Are Strong Referral Partners
+## Fast Capital. Real Client Problems. One Simple Application.
 
-Accountants, bookkeepers, and attorneys often see business pressure before anyone else does.
-
-You may see:
-
-- tax obligations coming due
-- payroll pressure
-- cash-flow gaps
-- slow receivables
-- business expansion costs
-- equipment or repair needs
-- contract or project startup costs
-- business formation needs
-- acquisition or buyout situations
-- bank declines or delays
-- owners who are profitable on paper but tight on cash
-
-In many cases, the client does not need a lecture.
-
-They need a practical path to explore.
-
-Darwin/Moonshine Capital can help them review possible funding options without you having to become their lender, broker, or funding product expert.
+- Same-day funding options may be available
+- Up to $25K for urgent business needs
+- Larger funding reviews from $10K to $2M
+- Startup, working capital, equipment, invoice, line access, and growth funding paths
+- Simple application
+- No obligation to accept an offer
 
 ---
 
-# Common Client Funding Situations
+## If Your Clients Ask Money Questions, You Can Become a Bigger Resource
 
-## For Accountants, CPAs, and Bookkeepers
+Your clients do not always need more advice.
 
-A client may be a good referral when they are dealing with:
+Sometimes they need cash flow to survive the advice they already received.
 
-- tax payments or tax-related cash pressure
-- payroll timing problems
-- inventory purchases
-- equipment purchases or repairs
-- working capital gaps
-- slow receivables
-- seasonal cash-flow pressure
-- growth expenses
-- marketing or operating costs
-- short-term capital needs
-- a bank decline or delay
+If your clients are dealing with tax pressure, payroll gaps, equipment needs, receivables delays, startup costs, contract opportunities, acquisition plans, or growth expenses, you can point them to a capital review without stepping outside your lane.
 
-## For Attorneys
+That means you may be able to:
 
-A client may be a good referral when they are dealing with:
+- help clients solve capital problems before they become emergencies
+- protect your advisor relationship by giving clients a practical next step
+- support business owners without becoming the lender
+- create a referral revenue channel from needs already showing up in your practice or network
+- let Darwin handle the funding conversation while you stay focused on your professional work
 
-- business formation or startup capital needs
-- expansion planning
-- contract mobilization
-- partnership changes
-- acquisition or buyout funding needs
-- equipment or asset purchases
-- litigation-related business disruption
-- operating cash-flow pressure
-- construction, trucking, or project-based capital needs
-- bank financing delays
-- transition from idea to active business operations
+When capital is the gap, you can be the connector.
 
 ---
 
-# How Darwin Can Help Clients Explore Funding Options
+# The Tax Bill Is Due. The Cash Isn’t.
 
-Darwin helps business owners take the first practical step: completing one short application.
+A client may be profitable on paper and still be gasping for cash.
 
-That application helps Moonshine Capital understand the business profile, including factors such as:
+The tax bill lands.  
+Payroll is due.  
+Vendors need payment.  
+Receivables are slow.  
+The books say the business is alive, but the bank account looks like it just survived a bar fight.
 
-- time in business
-- revenue
-- business activity
-- funding purpose
-- requested amount
-- general credit profile
-- documentation readiness
-- cash-flow situation
-- business bank activity, when applicable
+This is where clients panic, delay, or start making bad decisions.
 
-From there, possible funding paths may be reviewed based on provider criteria.
-
-This does not guarantee approval, funding amount, terms, cost, or timing.
-
-It simply gives the business owner a cleaner starting point than guessing, waiting, or clicking random ads that promise financial salvation with the spiritual energy of a gas station scratch-off ticket.
+**Best capital angle:** Fast Working Capital, Business Line Access, Invoice & Receivables Funding, or Larger Funding Reviews.
 
 ---
 
-# How the Referral Process Works
+# The Client Is Growing — But Cash Flow Is Dragging Behind
 
-## Step 1 — You Identify the Funding Need
+Growth can break a business almost as fast as failure.
 
-You notice the client may need capital, working capital, equipment funds, payroll support, cash-flow bridge options, or a next step after traditional financing is delayed or unavailable.
+More orders.  
+More payroll.  
+More inventory.  
+More equipment.  
+More project costs.  
+More pressure before the money comes back in.
 
-## Step 2 — You Introduce Darwin or Share the Application Link
+The client does not need hype. They need capital that matches the stage of the business.
 
-You can make a simple introduction or provide Darwin’s application link / QR code.
-
-## Step 3 — Client Completes the Application
-
-The client provides basic business information so the funding profile can be reviewed.
-
-## Step 4 — Moonshine Capital Reviews Possible Paths
-
-The business profile is reviewed to determine whether funding options may be available based on provider criteria.
-
-## Step 5 — Client Receives Next-Step Guidance
-
-If there may be a fit, the client receives guidance on possible next steps.
-
-If there is not a fit, the client can be told clearly and professionally.
-
-No fake guarantees. No overpromising. No “everyone qualifies” circus tent.
+**Best capital angle:** Business Line Access, Larger Funding Reviews, Equipment Financing, Structured Growth Funding, or Invoice & Receivables Funding.
 
 ---
 
-# How This Supports the Advisor-Client Relationship
+# The Business Is Being Formed, Bought, Expanded, or Restructured
 
-A responsible funding referral can help you remain useful without stepping outside your lane.
+Attorneys and advisors often see the capital issue before the transaction moves.
 
-It allows you to:
+A client forms an entity but needs launch money.  
+A business owner wants to buy out a partner.  
+A buyer needs capital to close or expand.  
+A contractor wins a deal but needs mobilization money.  
+An owner needs equipment or working capital before the plan becomes real.
 
-- give the client a practical resource
-- avoid becoming the funding expert
-- preserve your professional role
-- support the client’s business decision-making
-- reduce client panic around capital needs
-- help the client explore options before a problem becomes a crisis
-- avoid sending clients into random online lending chaos
+The paperwork may be clean. The plan may be sound. But without capital, the deal stalls.
 
-You stay positioned as a trusted advisor.
-
-Darwin becomes the funding resource.
-
-The client gets a next step.
-
-Everybody stays in their lane. Beautiful. Revolutionary. Almost suspiciously adult.
+**Best capital angle:** Startup Funding Path, Larger Funding Reviews, Equipment Financing, Real Estate Capital Track, or Working Capital.
 
 ---
 
-# What Darwin Does Not Do
+# Capital Options That Help Clients Move Forward
 
-Darwin and Moonshine Capital do not replace professional advice.
+## Fast Working Capital: Up to $25K for Urgent Business Needs
 
-Darwin does not provide:
+For active business owners who need fast capital for payroll, taxes, vendors, repairs, materials, insurance, inventory, or short-term cash-flow gaps.
 
-- tax advice
-- legal advice
-- accounting advice
-- bookkeeping advice
-- investment advice
-- guarantees of approval
-- promises of specific funding amounts
-- promises of specific rates, terms, or timelines
+**Highlights:**
 
-Accountants, attorneys, and advisors should continue advising clients within their professional scope.
+- Same-day funding may be available
+- Up to $25,000 for eligible files
+- Personal credit as low as 500 may be considered
+- No docs may be required for eligible applicants
+- Fast review for active businesses with revenue
 
-Darwin’s role is to help business owners explore possible funding paths based on the business profile.
+**Best fit:** when the client has an urgent business need and waiting on a traditional bank process may make the problem worse.
 
----
-
-# Who Is a Good Referral?
-
-A good referral may be a business owner who:
-
-- has active business operations
-- has revenue or a realistic repayment path
-- needs working capital
-- needs equipment or repair funds
-- needs payroll support
-- needs project or job-start capital
-- is waiting on receivables
-- is growing faster than cash flow allows
-- has been declined or delayed by a bank
-- needs a funding review before making a business decision
-- is willing to complete a short application and provide basic information
+**Trigger line:**  
+A tax bill, payroll run, or vendor deadline does not care that the bank needs more time.
 
 ---
 
-# Who May Not Be a Good Fit?
+## Startup Funding Path: Launch Capital for Qualified Founders
 
-A business owner may not be a good fit if they:
+For founders, new entities, and early-stage operators who may not have strong business revenue yet but have a financeable personal profile, income, credit strength, or other leverage.
 
-- have no active business
-- have no revenue or repayment path
-- expect guaranteed approval
-- expect free money
-- refuse to provide basic business information
-- need legal or tax advice instead of funding options
-- are in severe distress with no realistic path forward
-- are trying to borrow without understanding repayment responsibility
+**Highlights:**
 
-Moonshine Capital can help explore options, but not every business will qualify.
+- Startup-friendly funding paths may be available
+- 0% intro business credit card stacking may be available for qualified applicants
+- Personal/startup loan paths may be available for qualified applicants
+- Useful for launch costs, setup, early operating liquidity, or bridge capital
+- Can help clients avoid forcing a no-revenue business into the wrong funding lane
 
-That honesty protects the client, the advisor, and the referral relationship.
+**Best fit:** when the business is new, but the founder has personal strengths that can support a capital review.
 
----
-
-# What Claims Should Not Be Made
-
-Please do not tell clients:
-
-- “You are guaranteed to get approved.”
-- “Everyone qualifies.”
-- “Credit does not matter.”
-- “You will get funded today.”
-- “You can get any amount you want.”
-- “Moonshine Capital approves what banks deny.”
-- “This is free money.”
-- “This will definitely solve the problem.”
-- “You do not need to provide documentation.”
-- “The application guarantees an offer.”
-
-Better language:
-
-- “Darwin may be able to help you explore funding options.”
-- “Approval depends on your business profile.”
-- “Funding amount, terms, cost, and timing are not guaranteed.”
-- “The application helps identify what options may be available.”
-- “This may be a practical next step if capital is part of the problem.”
+**Trigger line:**  
+A new business does not always need to wait two years to start building capital options.
 
 ---
 
-# Simple Referral Language for Accountants
+## Invoice & Receivables Funding: Stop Waiting to Get Paid
 
-Use this when introducing Darwin:
+For B2B operators waiting on unpaid invoices, progress payments, customer payments, freight payments, or Net-30 / Net-60 / Net-90 receivables.
 
-> “Darwin works with Moonshine Capital and helps business owners explore possible funding options. I cannot guarantee an outcome, but if cash flow, payroll, taxes, equipment, receivables, or growth costs are creating pressure, he may be able to help you understand what options could be available based on your business profile.”
+**Highlights:**
 
-Shorter version:
+- Turn unpaid invoices into working capital
+- Useful for contractors, trucking, staffing, suppliers, and B2B service businesses
+- Helps bridge the gap between completed work and collected cash
+- Can support payroll, vendors, materials, taxes, or operating costs
 
-> “Darwin may be able to help you explore funding options through Moonshine Capital. The application can help determine what paths may be available based on your business profile.”
+**Best fit:** when the client did the work, sent the invoice, and still cannot use the money yet.
 
----
-
-# Simple Referral Language for Attorneys
-
-Use this when introducing Darwin:
-
-> “Darwin works with Moonshine Capital and helps business owners explore possible funding options when capital becomes part of the business issue. I cannot guarantee an outcome, but he may be able to help you review possible funding paths based on your business profile.”
-
-Shorter version:
-
-> “Darwin may be a useful funding resource if capital is one of the obstacles you are trying to solve.”
+**Trigger line:**  
+“Money coming later” does not cover payroll today.
 
 ---
 
-# QR Code Placeholder
+## Larger Funding Reviews: Up to $2M for Qualified Businesses
 
-## Scan to Start the Application
+For stronger businesses with revenue, documentation, and bigger capital needs tied to expansion, equipment, acquisition-related needs, contracts, payroll, working capital, refinancing, or growth.
 
+**Highlights:**
+
+- Funding reviews from $10,000 up to $2,000,000
+- Larger capital options for qualified businesses
+- Terms may range from short-term working capital to longer structured options
+- Useful for expansion, equipment, operating capital, project capital, and business growth
+- Best for businesses with stronger revenue, documentation, and repayment profile
+
+**Best fit:** when the client needs more than emergency cash and has enough business strength to support a larger review.
+
+**Trigger line:**  
+Some clients do not need a tiny bandage. They need real capital to move the business forward.
+
+---
+
+# Why This Helps You Win
+
+You already see the capital problems.
+
+A client cannot cover payroll.  
+A tax bill is creating pressure.  
+Receivables are slow.  
+A business is growing faster than cash flow.  
+A transaction is stuck because capital is the missing piece.  
+A bank process is too slow for the business problem in front of them.
+
+Instead of leaving the client to guess, stall, or click random online funding ads, you can point them to Darwin.
+
+You help the client.  
+You protect the relationship.  
+You stay in your professional lane.  
+You may create a new referral revenue opportunity.
+
+Darwin and Moonshine Capital handle the funding review.
+
+You become the valuable connector.
+
+---
+
+# Best-Fit Referrals
+
+Best-fit referrals usually have:
+
+- an active business or financeable startup profile
+- business revenue, income, receivables, collateral, or another realistic repayment source
+- a real use for funds
+- a time-sensitive or clearly defined capital need
+- willingness to complete a short application
+
+Not ideal for people with no active business, no repayment path, no clear use of funds, or expectations of guaranteed approval.
+
+---
+
+# Know a Client Who Needs Capital?
+
+One stop. Multiple funding paths. Simple application. No obligation.
+
+Help them explore options for:
+
+- urgent working capital
+- tax or payroll pressure
+- unpaid invoices
+- startup or launch needs
+- equipment or business assets
+- larger business funding
+
+## Scan to Start the Funding Review
+
+**QR Code:** `[Insert QR Code Here]`  
 **Application Link:** `[Insert Darwin Application Link]`
-
-**QR Code:** `[Insert QR Code Here]`
-
----
-
-# Contact
 
 **Darwin Hanneman**  
 Commercial Funding Partner  
 Moonshine Capital  
 
 **Phone:** `[Insert Phone]`  
-**Email:** `[Insert Email]`  
-**Application:** `[Insert Application Link]`
+**Email:** `[Insert Email]`
 
 ---
 
-# Compliance Footer
+## Footer
 
-Moonshine Capital helps business owners explore potential funding options based on their business profile. Approval, funding amount, terms, cost, and timing are not guaranteed and depend on provider criteria, applicant information, documentation, and underwriting review. Moonshine Capital does not provide legal, tax, accounting, or investment advice. Referral partners should not represent that funding is guaranteed or that any applicant will qualify for a specific product, amount, rate, term, or timeline.
+Funding is subject to application, review, provider criteria, and business profile. Approval, amount, terms, cost, and timing are not guaranteed. Moonshine Capital does not provide legal, tax, or accounting advice.
