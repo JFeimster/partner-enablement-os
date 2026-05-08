@@ -1,0 +1,218 @@
+[
+  {
+    "id": "conversation-scripts",
+    "title": "Conversation Scripts",
+    "slug": "conversation-scripts",
+    "description": "Discovery and business owner conversation scripts that help Partners understand context, timing, use of funds, and possible next steps without making unsafe claims.",
+    "audience": [
+      "funding-partner",
+      "broker",
+      "operator"
+    ],
+    "useCases": [
+      "business-owner-discovery",
+      "funding-needs-context",
+      "next-step-framing"
+    ],
+    "exampleScripts": [
+      "Business owner discovery conversation",
+      "Funding need clarification script",
+      "Business profile review intro"
+    ],
+    "safeLanguageReminders": [
+      "Use explore funding options.",
+      "Explain that options depend on business profile and provider criteria.",
+      "State that approval, terms, amounts, and timing are not guaranteed."
+    ],
+    "restrictedLanguageWarnings": [
+      "Do not promise approval.",
+      "Do not quote rates, terms, amounts, or timelines before provider review.",
+      "Do not imply every business owner qualifies."
+    ],
+    "relatedPageUrl": "/pages/scripts.html",
+    "status": "planned",
+    "order": 1
+  },
+  {
+    "id": "email-scripts",
+    "title": "Email Scripts",
+    "slug": "email-scripts",
+    "description": "Short email scripts for introductions, recap messages, referral source check-ins, and next-step follow-up.",
+    "audience": [
+      "funding-partner",
+      "affiliate-partner",
+      "operator",
+      "referral-partner"
+    ],
+    "useCases": [
+      "warm-introduction",
+      "post-call-recap",
+      "referral-source-follow-up",
+      "asset-delivery"
+    ],
+    "exampleScripts": [
+      "Warm intro email to a business owner",
+      "Post-conversation recap email",
+      "Referral source follow-up email"
+    ],
+    "safeLanguageReminders": [
+      "Keep emails concise and context-specific.",
+      "Use may be available when discussing possible options.",
+      "Include provider criteria apply when funding options are mentioned."
+    ],
+    "restrictedLanguageWarnings": [
+      "Do not create urgency that implies guaranteed timing.",
+      "Do not promise funding availability.",
+      "Do not use income, revenue, or funding outcome claims."
+    ],
+    "relatedPageUrl": "/pages/scripts.html",
+    "status": "planned",
+    "order": 2
+  },
+  {
+    "id": "referral-partner-scripts",
+    "title": "Referral Partner Scripts",
+    "slug": "referral-partner-scripts",
+    "description": "Scripts for professional referral source conversations with bank managers, accountants, attorneys, equipment dealers, trucking businesses, construction contacts, and local connectors.",
+    "audience": [
+      "funding-partner",
+      "referral-partner",
+      "broker"
+    ],
+    "useCases": [
+      "bank-manager-outreach",
+      "accountant-introduction",
+      "attorney-introduction",
+      "equipment-dealer-outreach",
+      "trucking-conversation",
+      "construction-conversation"
+    ],
+    "exampleScripts": [
+      "Bank manager referral intro",
+      "Accountant and attorney introduction",
+      "Equipment dealer outreach opener",
+      "Trucking and construction referral conversation"
+    ],
+    "safeLanguageReminders": [
+      "Position the Partner as a responsible next step.",
+      "Use when traditional financing is delayed, unavailable, or not the right fit today.",
+      "Explain that one application can help identify possible funding paths."
+    ],
+    "restrictedLanguageWarnings": [
+      "Do not use anti-bank language.",
+      "Do not say we approve what banks deny.",
+      "Do not imply a referral source can promise approval or terms."
+    ],
+    "relatedPageUrl": "/pages/referral-partner-assets.html",
+    "status": "planned",
+    "order": 3
+  },
+  {
+    "id": "objection-handling-scripts",
+    "title": "Objection Handling Scripts",
+    "slug": "objection-handling-scripts",
+    "description": "Safe responses to questions about approval, rates, terms, timing, documentation, qualification, and provider review.",
+    "audience": [
+      "funding-partner",
+      "broker",
+      "operator"
+    ],
+    "useCases": [
+      "rate-objection",
+      "timing-objection",
+      "approval-question",
+      "documentation-question",
+      "qualification-question"
+    ],
+    "exampleScripts": [
+      "What to say when a client asks about rates",
+      "What to say when a client asks if they are approved",
+      "What to say when a client asks how fast funding can happen"
+    ],
+    "safeLanguageReminders": [
+      "Possible terms depend on business profile and provider criteria.",
+      "Review timelines and documentation needs vary.",
+      "Approval, terms, amounts, and timing are not guaranteed."
+    ],
+    "restrictedLanguageWarnings": [
+      "Do not say approval is likely unless a provider has confirmed.",
+      "Do not promise same-day funding.",
+      "Do not say no documents are needed."
+    ],
+    "relatedPageUrl": "/pages/compliance.html",
+    "status": "planned",
+    "order": 4
+  },
+  {
+    "id": "follow-up-scripts",
+    "title": "Follow-Up Scripts",
+    "slug": "follow-up-scripts",
+    "description": "Follow-up scripts for business owners, referral partners, and open opportunities after an initial conversation.",
+    "audience": [
+      "funding-partner",
+      "operator",
+      "broker"
+    ],
+    "useCases": [
+      "post-intro-follow-up",
+      "missing-information-follow-up",
+      "referral-source-check-in",
+      "weekly-opportunity-review"
+    ],
+    "exampleScripts": [
+      "Follow-up after initial business owner call",
+      "Follow-up after referral source meeting",
+      "Missing documents reminder"
+    ],
+    "safeLanguageReminders": [
+      "Follow up on next actions and needed information.",
+      "Use review and possible options language.",
+      "Keep the message clear without implying an outcome."
+    ],
+    "restrictedLanguageWarnings": [
+      "Do not imply that submitting information guarantees approval.",
+      "Do not imply a timeline is guaranteed.",
+      "Do not pressure the business owner with unsupported claims."
+    ],
+    "relatedPageUrl": "/pages/scripts.html",
+    "status": "planned",
+    "order": 5
+  },
+  {
+    "id": "compliance-rewrite-scripts",
+    "title": "Compliance Rewrite Scripts",
+    "slug": "compliance-rewrite-scripts",
+    "description": "Rewrite patterns for turning unsafe funding claims into clearer, safer Partner-facing language.",
+    "audience": [
+      "operator",
+      "funding-partner",
+      "affiliate-partner",
+      "broker"
+    ],
+    "useCases": [
+      "claim-review",
+      "safe-rewrite",
+      "asset-cleanup",
+      "script-review"
+    ],
+    "exampleScripts": [
+      "Rewrite guaranteed approval language",
+      "Rewrite rate and timing claims",
+      "Rewrite anti-bank positioning"
+    ],
+    "safeLanguageReminders": [
+      "Replace guarantees with exploratory language.",
+      "Add based on business profile.",
+      "Add provider criteria apply.",
+      "Use the default disclaimer when funding options are discussed."
+    ],
+    "restrictedLanguageWarnings": [
+      "Do not preserve unsafe claims for tone.",
+      "Do not make the claim more persuasive if it is inaccurate.",
+      "Do not remove required disclaimers."
+    ],
+    "relatedPageUrl": "/pages/compliance.html",
+    "status": "planned",
+    "order": 6
+  }
+]
