@@ -1,0 +1,222 @@
+[
+  {
+    "id": "getting-started",
+    "name": "Getting Started",
+    "description": "Starter resources for new Partners who need the first clear path through the Partner Enablement OS.",
+    "icon": "rocket",
+    "audience": [
+      "funding-partner",
+      "referral-partner",
+      "affiliate-partner",
+      "operator"
+    ],
+    "useCases": [
+      "onboarding",
+      "orientation",
+      "launch-planning"
+    ],
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "daily-actions",
+    "name": "Daily Actions",
+    "description": "Repeatable Partner activity resources for outreach, follow-up, review, and execution rhythm.",
+    "icon": "checklist",
+    "audience": [
+      "funding-partner",
+      "referral-partner",
+      "operator"
+    ],
+    "useCases": [
+      "activity-tracking",
+      "pipeline-discipline",
+      "follow-up"
+    ],
+    "featured": true,
+    "order": 2
+  },
+  {
+    "id": "lead-generation",
+    "name": "Lead Generation",
+    "description": "Resources for identifying business owners, referral sources, and Partner opportunities without making unsafe claims.",
+    "icon": "radar",
+    "audience": [
+      "funding-partner",
+      "affiliate-partner",
+      "operator"
+    ],
+    "useCases": [
+      "prospecting",
+      "relationship-mapping",
+      "pipeline-building"
+    ],
+    "featured": false,
+    "order": 3
+  },
+  {
+    "id": "referral-partner-outreach",
+    "name": "Referral Partner Outreach",
+    "description": "Assets for starting responsible conversations with bank managers, accountants, attorneys, equipment dealers, and local business connectors.",
+    "icon": "handshake",
+    "audience": [
+      "funding-partner",
+      "referral-partner",
+      "broker"
+    ],
+    "useCases": [
+      "warm-intros",
+      "professional-referrals",
+      "relationship-building"
+    ],
+    "featured": true,
+    "order": 4
+  },
+  {
+    "id": "product-training",
+    "name": "Product Training",
+    "description": "Training resources that help Partners explain funding options carefully, accurately, and without guarantees.",
+    "icon": "book-open",
+    "audience": [
+      "funding-partner",
+      "operator",
+      "broker"
+    ],
+    "useCases": [
+      "education",
+      "partner-training",
+      "funding-conversation-prep"
+    ],
+    "featured": false,
+    "order": 5
+  },
+  {
+    "id": "crm-tracking",
+    "name": "CRM & Tracking",
+    "description": "Templates and resources for tracking activity, opportunities, follow-up, Partner status, and weekly review cycles.",
+    "icon": "columns",
+    "audience": [
+      "funding-partner",
+      "operator",
+      "affiliate-partner"
+    ],
+    "useCases": [
+      "crm-setup",
+      "follow-up",
+      "weekly-review"
+    ],
+    "featured": true,
+    "order": 6
+  },
+  {
+    "id": "social-media-assets",
+    "name": "Social Media Assets",
+    "description": "Partner-facing social copy and content prompts designed to create education-first business funding conversations.",
+    "icon": "megaphone",
+    "audience": [
+      "funding-partner",
+      "affiliate-partner",
+      "referral-partner"
+    ],
+    "useCases": [
+      "content-creation",
+      "audience-education",
+      "partner-marketing"
+    ],
+    "featured": false,
+    "order": 7
+  },
+  {
+    "id": "email-scripts",
+    "name": "Email Scripts",
+    "description": "Email templates for introductions, follow-ups, referral partner outreach, and responsible client conversations.",
+    "icon": "mail",
+    "audience": [
+      "funding-partner",
+      "referral-partner",
+      "operator"
+    ],
+    "useCases": [
+      "email-outreach",
+      "follow-up",
+      "warm-intros"
+    ],
+    "featured": true,
+    "order": 8
+  },
+  {
+    "id": "compliance",
+    "name": "Compliance",
+    "description": "Safe language, restricted language, disclaimers, and rewrite examples for responsible funding-related communication.",
+    "icon": "shield",
+    "audience": [
+      "funding-partner",
+      "referral-partner",
+      "affiliate-partner",
+      "operator",
+      "broker"
+    ],
+    "useCases": [
+      "safe-language",
+      "claim-review",
+      "partner-training"
+    ],
+    "featured": true,
+    "order": 9
+  },
+  {
+    "id": "deal-submission",
+    "name": "Deal Submission",
+    "description": "Resources for preparing business owner information and routing opportunities through the proper process.",
+    "icon": "upload",
+    "audience": [
+      "funding-partner",
+      "operator",
+      "broker"
+    ],
+    "useCases": [
+      "intake-prep",
+      "opportunity-routing",
+      "documentation"
+    ],
+    "featured": false,
+    "order": 10
+  },
+  {
+    "id": "faq",
+    "name": "FAQ",
+    "description": "Plain-English answers to common Partner, referral source, and business owner questions.",
+    "icon": "help-circle",
+    "audience": [
+      "funding-partner",
+      "referral-partner",
+      "operator",
+      "broker"
+    ],
+    "useCases": [
+      "objection-handling",
+      "partner-education",
+      "client-questions"
+    ],
+    "featured": false,
+    "order": 11
+  },
+  {
+    "id": "recommended-tools",
+    "name": "Recommended Tools",
+    "description": "Suggested tools, worksheets, prompts, and future interactive resources for Partner enablement.",
+    "icon": "toolbox",
+    "audience": [
+      "funding-partner",
+      "affiliate-partner",
+      "operator"
+    ],
+    "useCases": [
+      "workflow-support",
+      "automation",
+      "partner-productivity"
+    ],
+    "featured": true,
+    "order": 12
+  }
+]
