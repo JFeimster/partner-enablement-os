@@ -4,62 +4,103 @@
     "url": "/index.html",
     "description": "Partner Enablement OS homepage.",
     "order": 1,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
   },
   {
     "label": "Start Here",
     "url": "/pages/getting-started.html",
     "description": "First steps for new Partners.",
     "order": 2,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
   },
   {
     "label": "Resources",
     "url": "/pages/partner-resource-library.html",
     "description": "Searchable Partner resource library.",
     "order": 3,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
   },
   {
     "label": "Launch Kits",
     "url": "/pages/launch-kits.html",
     "description": "Partner-specific launch kits and activation paths.",
     "order": 4,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
   },
   {
     "label": "Referral Assets",
     "url": "/pages/referral-partner-assets.html",
     "description": "Handouts, scripts, and explainers for referral relationships.",
     "order": 5,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
   },
   {
     "label": "Scripts",
     "url": "/pages/scripts.html",
     "description": "Conversation, email, and follow-up scripts.",
     "order": 6,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
   },
   {
     "label": "Trackers",
     "url": "/pages/trackers.html",
     "description": "Daily and weekly Partner activity trackers.",
     "order": 7,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
   },
   {
     "label": "Prompts",
     "url": "/pages/prompts.html",
     "description": "AI prompts for launch kits, scripts, reviews, and resource creation.",
     "order": 8,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
   },
   {
     "label": "Compliance",
     "url": "/pages/compliance.html",
     "description": "Safe language, restricted claims, and funding disclaimers.",
     "order": 9,
-    "visible": true
+    "visible": true,
+    "navGroup": "primary"
+  },
+  {
+    "label": "Tools",
+    "url": "/pages/tools.html",
+    "description": "Future calculators, worksheets, scorecards, and Partner workflow tools.",
+    "order": 10,
+    "visible": true,
+    "navGroup": "secondary"
+  },
+  {
+    "label": "Training",
+    "url": "/pages/training.html",
+    "description": "Partner onboarding, responsible funding language, referral strategy, and workflow training.",
+    "order": 11,
+    "visible": true,
+    "navGroup": "secondary"
+  },
+  {
+    "label": "About",
+    "url": "/pages/about.html",
+    "description": "What Partner Enablement OS is and how the stack should be treated.",
+    "order": 12,
+    "visible": true,
+    "navGroup": "secondary"
+  },
+  {
+    "label": "Darwin Hanneman",
+    "url": "/pages/darwin-hanneman.html",
+    "description": "Prototype Partner launch kit page for Darwin Hanneman.",
+    "order": 13,
+    "visible": true,
+    "navGroup": "secondary"
   }
 ]
