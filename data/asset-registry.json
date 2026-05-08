@@ -4,46 +4,18 @@
     "title": "Daily Outreach Tracker",
     "description": "A practical tracker for logging daily Partner outreach, referral conversations, follow-up, and next actions.",
     "assetType": "tracker",
-    "category": "crm-tracking",
-    "audience": [
-      "funding-partners",
-      "affiliate-partners",
-      "operators",
-      "brokers"
-    ],
+    "category": "trackers",
+    "audience": ["funding-partners", "affiliate-partners", "operators", "brokers"],
     "partnerSpecific": false,
     "relatedPartner": "",
     "status": "ready",
     "usefulness": "ready-to-use",
-    "source": {
-      "type": "github",
-      "repo": "JFeimster/partner-enablement-os",
-      "path": "trackers/daily-outreach-tracker.md",
-      "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/trackers/daily-outreach-tracker.md",
-      "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/trackers/daily-outreach-tracker.md"
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/trackers.html",
-      "downloadUrl": "",
-      "driveFileId": "",
-      "driveUrl": "",
-      "copyMode": "markdown-source",
-      "primaryAction": "open-source"
-    },
-    "actions": [
-      "open-source",
-      "copy-path",
-      "copy-raw-url"
-    ],
-    "tags": [
-      "daily-actions",
-      "tracker",
-      "outreach",
-      "follow-up",
-      "partner-execution"
-    ],
-    "complianceNotes": "Tracks activity and follow-up discipline only. Does not imply approvals, funding, revenue, income, applications, or outcomes.",
-    "lastVerified": "2026-05-07",
+    "source": {"type": "github", "repo": "JFeimster/partner-enablement-os", "path": "trackers/daily-outreach-tracker.md", "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/trackers/daily-outreach-tracker.md", "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/trackers/daily-outreach-tracker.md"},
+    "delivery": {"staticPageUrl": "/pages/assets/daily-outreach-tracker.html", "downloadUrl": "", "driveFileId": "1lBsjA-IfuQozWxY2aFlR9gGQ9Ifny-tIqd2RUXaThxM", "driveUrl": "https://docs.google.com/spreadsheets/d/1lBsjA-IfuQozWxY2aFlR9gGQ9Ifny-tIqd2RUXaThxM/edit", "templateUrl": "https://docs.google.com/spreadsheets/d/1lBsjA-IfuQozWxY2aFlR9gGQ9Ifny-tIqd2RUXaThxM/copy", "templateStatus": "active-google-sheets-template", "copyMode": "markdown-source", "primaryAction": "view-on-site"},
+    "actions": ["open-page", "use-template", "open-source", "copy-path", "copy-raw-url"],
+    "tags": ["daily-actions", "tracker", "outreach", "follow-up", "google-sheets"],
+    "complianceNotes": "Trackers measure activity and follow-up discipline. They do not guarantee approvals, funding, revenue, income, applications, or outcomes.",
+    "lastVerified": "2026-05-08",
     "order": 1
   },
   {
@@ -51,274 +23,171 @@
     "title": "Weekly Activity Tracker",
     "description": "A weekly tracker for reviewing Partner outreach, referral conversations, follow-up status, and next actions.",
     "assetType": "tracker",
-    "category": "crm-tracking",
-    "audience": [
-      "funding-partners",
-      "affiliate-partners",
-      "operators",
-      "brokers"
-    ],
+    "category": "trackers",
+    "audience": ["funding-partners", "affiliate-partners", "operators", "brokers"],
     "partnerSpecific": false,
     "relatedPartner": "",
     "status": "ready",
     "usefulness": "ready-to-use",
-    "source": {
-      "type": "github",
-      "repo": "JFeimster/partner-enablement-os",
-      "path": "trackers/weekly-activity-tracker.md",
-      "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/trackers/weekly-activity-tracker.md",
-      "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/trackers/weekly-activity-tracker.md"
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/trackers.html",
-      "downloadUrl": "",
-      "driveFileId": "",
-      "driveUrl": "",
-      "copyMode": "markdown-source",
-      "primaryAction": "open-source"
-    },
-    "actions": [
-      "open-source",
-      "copy-path",
-      "copy-raw-url"
-    ],
-    "tags": [
-      "weekly-review",
-      "tracker",
-      "partner-execution",
-      "follow-up",
-      "crm-rhythm"
-    ],
-    "complianceNotes": "Supports weekly activity review only. Does not guarantee approvals, funding, revenue, income, applications, or outcomes.",
-    "lastVerified": "2026-05-07",
+    "source": {"type": "github", "repo": "JFeimster/partner-enablement-os", "path": "trackers/weekly-activity-tracker.md", "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/trackers/weekly-activity-tracker.md", "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/trackers/weekly-activity-tracker.md"},
+    "delivery": {"staticPageUrl": "/pages/assets/weekly-activity-tracker.html", "downloadUrl": "", "driveFileId": "1Wm3JQlW0CtkKeDwIB2ycc0miyRQSt9p2W9-4n9RsOLY", "driveUrl": "https://docs.google.com/spreadsheets/d/1Wm3JQlW0CtkKeDwIB2ycc0miyRQSt9p2W9-4n9RsOLY/edit", "templateUrl": "https://docs.google.com/spreadsheets/d/1Wm3JQlW0CtkKeDwIB2ycc0miyRQSt9p2W9-4n9RsOLY/copy", "templateStatus": "active-google-sheets-template", "copyMode": "markdown-source", "primaryAction": "view-on-site"},
+    "actions": ["open-page", "use-template", "open-source", "copy-path", "copy-raw-url"],
+    "tags": ["weekly-review", "tracker", "follow-up", "crm-rhythm", "google-sheets"],
+    "complianceNotes": "Trackers measure activity and follow-up discipline. They do not guarantee approvals, funding, revenue, income, applications, or outcomes.",
+    "lastVerified": "2026-05-08",
     "order": 2
+  },
+  {
+    "id": "daily-outreach-tracker-google-sheet-template",
+    "title": "Moonshine Capital - Daily Outreach Tracker Template",
+    "description": "Google Sheets copy template for the Daily Outreach Tracker.",
+    "assetType": "tracker-template",
+    "category": "trackers",
+    "audience": ["funding-partners", "affiliate-partners", "operators", "brokers"],
+    "partnerSpecific": false,
+    "relatedPartner": "",
+    "status": "ready",
+    "usefulness": "ready-to-use",
+    "source": {"type": "google-drive", "repo": "", "path": "", "url": "https://docs.google.com/spreadsheets/d/1lBsjA-IfuQozWxY2aFlR9gGQ9Ifny-tIqd2RUXaThxM/edit", "rawUrl": ""},
+    "delivery": {"staticPageUrl": "/pages/assets/daily-outreach-tracker.html", "downloadUrl": "", "driveFileId": "1lBsjA-IfuQozWxY2aFlR9gGQ9Ifny-tIqd2RUXaThxM", "driveUrl": "https://docs.google.com/spreadsheets/d/1lBsjA-IfuQozWxY2aFlR9gGQ9Ifny-tIqd2RUXaThxM/edit", "templateUrl": "https://docs.google.com/spreadsheets/d/1lBsjA-IfuQozWxY2aFlR9gGQ9Ifny-tIqd2RUXaThxM/copy", "templateStatus": "active-google-sheets-template", "copyMode": "link-only", "primaryAction": "use-template"},
+    "actions": ["use-template", "view-drive", "copy-drive-url"],
+    "tags": ["daily-actions", "tracker", "google-sheets", "template"],
+    "complianceNotes": "Trackers measure activity and follow-up discipline. They do not guarantee approvals, funding, revenue, income, applications, or outcomes.",
+    "lastVerified": "2026-05-08",
+    "order": 3
+  },
+  {
+    "id": "weekly-activity-tracker-google-sheet-template",
+    "title": "Moonshine Capital - Weekly Activity Tracker Template",
+    "description": "Google Sheets copy template for the Weekly Activity Tracker.",
+    "assetType": "tracker-template",
+    "category": "trackers",
+    "audience": ["funding-partners", "affiliate-partners", "operators", "brokers"],
+    "partnerSpecific": false,
+    "relatedPartner": "",
+    "status": "ready",
+    "usefulness": "ready-to-use",
+    "source": {"type": "google-drive", "repo": "", "path": "", "url": "https://docs.google.com/spreadsheets/d/1Wm3JQlW0CtkKeDwIB2ycc0miyRQSt9p2W9-4n9RsOLY/edit", "rawUrl": ""},
+    "delivery": {"staticPageUrl": "/pages/assets/weekly-activity-tracker.html", "downloadUrl": "", "driveFileId": "1Wm3JQlW0CtkKeDwIB2ycc0miyRQSt9p2W9-4n9RsOLY", "driveUrl": "https://docs.google.com/spreadsheets/d/1Wm3JQlW0CtkKeDwIB2ycc0miyRQSt9p2W9-4n9RsOLY/edit", "templateUrl": "https://docs.google.com/spreadsheets/d/1Wm3JQlW0CtkKeDwIB2ycc0miyRQSt9p2W9-4n9RsOLY/copy", "templateStatus": "active-google-sheets-template", "copyMode": "link-only", "primaryAction": "use-template"},
+    "actions": ["use-template", "view-drive", "copy-drive-url"],
+    "tags": ["weekly-review", "tracker", "google-sheets", "template"],
+    "complianceNotes": "Trackers measure activity and follow-up discipline. They do not guarantee approvals, funding, revenue, income, applications, or outcomes.",
+    "lastVerified": "2026-05-08",
+    "order": 4
   },
   {
     "id": "business-owner-intake-call-script",
     "title": "Business Owner Intake Call Script",
     "description": "A client intake script for business owner discovery conversations, funding need context, and safe next-step framing.",
     "assetType": "script",
-    "category": "email-scripts",
-    "audience": [
-      "funding-partners",
-      "brokers",
-      "operators"
-    ],
+    "category": "scripts",
+    "audience": ["funding-partners", "brokers", "operators"],
     "partnerSpecific": false,
     "relatedPartner": "",
     "status": "ready",
     "usefulness": "ready-to-use",
-    "source": {
-      "type": "github",
-      "repo": "JFeimster/partner-enablement-os",
-      "path": "scripts/client-intake/business-owner-intake-call-script.md",
-      "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/scripts/client-intake/business-owner-intake-call-script.md",
-      "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/scripts/client-intake/business-owner-intake-call-script.md"
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/scripts.html",
-      "downloadUrl": "",
-      "driveFileId": "",
-      "driveUrl": "",
-      "copyMode": "markdown-source",
-      "primaryAction": "open-source"
-    },
-    "actions": [
-      "open-source",
-      "copy-path",
-      "copy-raw-url"
-    ],
-    "tags": [
-      "script",
-      "client-intake",
-      "business-owner-discovery",
-      "funding-conversation"
-    ],
+    "source": {"type": "github", "repo": "JFeimster/partner-enablement-os", "path": "scripts/client-intake/business-owner-intake-call-script.md", "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/scripts/client-intake/business-owner-intake-call-script.md", "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/scripts/client-intake/business-owner-intake-call-script.md"},
+    "delivery": {"staticPageUrl": "/pages/scripts.html", "downloadUrl": "", "driveFileId": "", "driveUrl": "", "copyMode": "markdown-source", "primaryAction": "open-source"},
+    "actions": ["open-source", "copy-path", "copy-raw-url"],
+    "tags": ["script", "client-intake", "business-owner-discovery"],
     "complianceNotes": "Use for discovery and next-step framing. Do not promise approval, funding, rates, terms, amounts, timing, qualification, revenue, income, or outcomes.",
-    "lastVerified": "2026-05-07",
-    "order": 3
+    "lastVerified": "2026-05-08",
+    "order": 5
   },
   {
     "id": "universal-referral-partner-intro-script",
     "title": "Universal Referral Partner Intro Script",
     "description": "A reusable intro script for referral partner outreach and professional relationship-building.",
     "assetType": "script",
-    "category": "referral-partner-outreach",
-    "audience": [
-      "funding-partners",
-      "referral-partners",
-      "brokers",
-      "operators"
-    ],
+    "category": "scripts",
+    "audience": ["funding-partners", "referral-partners", "brokers", "operators"],
     "partnerSpecific": false,
     "relatedPartner": "",
     "status": "ready",
     "usefulness": "ready-to-use",
-    "source": {
-      "type": "github",
-      "repo": "JFeimster/partner-enablement-os",
-      "path": "scripts/universal-outreach/referral-partner-intro-script.md",
-      "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/scripts/universal-outreach/referral-partner-intro-script.md",
-      "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/scripts/universal-outreach/referral-partner-intro-script.md"
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/referral-partner-assets.html",
-      "downloadUrl": "",
-      "driveFileId": "",
-      "driveUrl": "",
-      "copyMode": "markdown-source",
-      "primaryAction": "open-source"
-    },
-    "actions": [
-      "open-source",
-      "copy-path",
-      "copy-raw-url"
-    ],
-    "tags": [
-      "script",
-      "referral-partner-outreach",
-      "intro-script",
-      "professional-referrals"
-    ],
+    "source": {"type": "github", "repo": "JFeimster/partner-enablement-os", "path": "scripts/universal-outreach/referral-partner-intro-script.md", "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/scripts/universal-outreach/referral-partner-intro-script.md", "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/scripts/universal-outreach/referral-partner-intro-script.md"},
+    "delivery": {"staticPageUrl": "/pages/referral-partner-assets.html", "downloadUrl": "", "driveFileId": "", "driveUrl": "", "copyMode": "markdown-source", "primaryAction": "open-source"},
+    "actions": ["open-source", "copy-path", "copy-raw-url"],
+    "tags": ["script", "referral-partner-outreach", "intro-script"],
     "complianceNotes": "Use respectful referral positioning. Avoid anti-bank or anti-advisor language and do not imply guaranteed approval or funding outcomes.",
-    "lastVerified": "2026-05-07",
-    "order": 4
-  },
-  {
-    "id": "darwin-30-day-launch-plan",
-    "title": "Darwin 30-Day Launch Plan",
-    "description": "Darwin Hanneman's 30-day launch plan for referral lane mapping, outreach rhythm, follow-up, and asset refinement.",
-    "assetType": "launch-plan",
-    "category": "getting-started",
-    "audience": [
-      "darwin-hanneman",
-      "funding-partners",
-      "operators"
-    ],
-    "partnerSpecific": true,
-    "relatedPartner": "darwin-hanneman",
-    "status": "needs-cleanup",
-    "usefulness": "ready-to-link",
-    "source": {
-      "type": "github",
-      "repo": "JFeimster/partner-enablement-os",
-      "path": "launch-kits/darwin-hanneman/launch-plan/darwin-30-day-launch-plan.md",
-      "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/launch-kits/darwin-hanneman/launch-plan/darwin-30-day-launch-plan.md",
-      "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/launch-kits/darwin-hanneman/launch-plan/darwin-30-day-launch-plan.md"
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/launch-kits/darwin-hanneman.html",
-      "downloadUrl": "",
-      "driveFileId": "",
-      "driveUrl": "",
-      "copyMode": "markdown-source",
-      "primaryAction": "open-source"
-    },
-    "actions": [
-      "open-source",
-      "copy-path",
-      "copy-raw-url"
-    ],
-    "tags": [
-      "darwin-hanneman",
-      "launch-plan",
-      "30-day-launch",
-      "partner-specific",
-      "referral-outreach"
-    ],
-    "complianceNotes": "Review for current positioning before public use. Do not claim guaranteed applications, approvals, funding, revenue, income, or outcomes.",
-    "lastVerified": "2026-05-07",
-    "order": 5
+    "lastVerified": "2026-05-08",
+    "order": 6
   },
   {
     "id": "darwin-launch-kit-index",
     "title": "Darwin Launch Kit Index",
     "description": "The source index for Darwin Hanneman's Partner launch kit assets, referral lanes, and launch resources.",
     "assetType": "launch-kit",
-    "category": "getting-started",
-    "audience": [
-      "darwin-hanneman",
-      "funding-partners",
-      "operators"
-    ],
+    "category": "launch-kits",
+    "audience": ["darwin-hanneman", "funding-partners", "operators"],
     "partnerSpecific": true,
     "relatedPartner": "darwin-hanneman",
     "status": "ready",
     "usefulness": "ready-to-use",
-    "source": {
-      "type": "github",
-      "repo": "JFeimster/partner-enablement-os",
-      "path": "launch-kits/darwin-hanneman/launch-kit-index.md",
-      "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/launch-kits/darwin-hanneman/launch-kit-index.md",
-      "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/launch-kits/darwin-hanneman/launch-kit-index.md"
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/launch-kits/darwin-hanneman.html",
-      "downloadUrl": "",
-      "driveFileId": "",
-      "driveUrl": "",
-      "copyMode": "markdown-source",
-      "primaryAction": "open-source"
-    },
-    "actions": [
-      "open-source",
-      "copy-path",
-      "copy-raw-url"
-    ],
-    "tags": [
-      "darwin-hanneman",
-      "launch-kit",
-      "partner-specific",
-      "asset-index"
-    ],
-    "complianceNotes": "Use as the canonical Darwin launch kit index. Verify any linked funding language before publishing externally.",
-    "lastVerified": "2026-05-07",
-    "order": 6
+    "source": {"type": "github", "repo": "JFeimster/partner-enablement-os", "path": "launch-kits/darwin-hanneman/launch-kit-index.md", "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/launch-kits/darwin-hanneman/launch-kit-index.md", "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/launch-kits/darwin-hanneman/launch-kit-index.md"},
+    "delivery": {"staticPageUrl": "/pages/assets/darwin-launch-kit-index.html", "downloadUrl": "", "driveFileId": "", "driveUrl": "", "copyMode": "markdown-source", "primaryAction": "view-on-site"},
+    "actions": ["open-page", "open-source", "copy-path", "copy-raw-url"],
+    "tags": ["darwin-hanneman", "launch-kit", "asset-index"],
+    "complianceNotes": "Use as the canonical Darwin launch kit index. Verify linked funding language before publishing externally.",
+    "lastVerified": "2026-05-08",
+    "order": 7
   },
   {
     "id": "darwin-partner-profile",
     "title": "Darwin Partner Profile",
     "description": "Darwin Hanneman's Partner profile source file, including positioning, strongest lanes, and relationship-first launch context.",
     "assetType": "partner-profile",
-    "category": "getting-started",
-    "audience": [
-      "darwin-hanneman",
-      "funding-partners",
-      "operators"
-    ],
+    "category": "launch-kits",
+    "audience": ["darwin-hanneman", "funding-partners", "operators"],
     "partnerSpecific": true,
     "relatedPartner": "darwin-hanneman",
     "status": "ready",
     "usefulness": "ready-to-use",
-    "source": {
-      "type": "github",
-      "repo": "JFeimster/partner-enablement-os",
-      "path": "launch-kits/darwin-hanneman/partner-profile.md",
-      "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/launch-kits/darwin-hanneman/partner-profile.md",
-      "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/launch-kits/darwin-hanneman/partner-profile.md"
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/launch-kits/darwin-hanneman.html",
-      "downloadUrl": "",
-      "driveFileId": "",
-      "driveUrl": "",
-      "copyMode": "markdown-source",
-      "primaryAction": "open-source"
-    },
-    "actions": [
-      "open-source",
-      "copy-path",
-      "copy-raw-url"
-    ],
-    "tags": [
-      "darwin-hanneman",
-      "partner-profile",
-      "launch-kit",
-      "relationship-first"
-    ],
+    "source": {"type": "github", "repo": "JFeimster/partner-enablement-os", "path": "launch-kits/darwin-hanneman/partner-profile.md", "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/launch-kits/darwin-hanneman/partner-profile.md", "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/launch-kits/darwin-hanneman/partner-profile.md"},
+    "delivery": {"staticPageUrl": "/pages/assets/darwin-partner-profile.html", "downloadUrl": "", "driveFileId": "", "driveUrl": "", "copyMode": "markdown-source", "primaryAction": "view-on-site"},
+    "actions": ["open-page", "open-source", "copy-path", "copy-raw-url"],
+    "tags": ["darwin-hanneman", "partner-profile", "launch-kit"],
     "complianceNotes": "Use for Darwin-specific positioning. Keep funding language exploratory and avoid approval, term, amount, timing, revenue, income, or outcome guarantees.",
-    "lastVerified": "2026-05-07",
-    "order": 7
+    "lastVerified": "2026-05-08",
+    "order": 8
+  },
+  {
+    "id": "darwin-30-day-launch-plan",
+    "title": "Darwin 30-Day Launch Plan",
+    "description": "Darwin Hanneman's 30-day launch plan for referral lane mapping, outreach rhythm, follow-up, and asset refinement.",
+    "assetType": "launch-plan",
+    "category": "launch-kits",
+    "audience": ["darwin-hanneman", "funding-partners", "operators"],
+    "partnerSpecific": true,
+    "relatedPartner": "darwin-hanneman",
+    "status": "needs-cleanup",
+    "usefulness": "ready-to-link",
+    "source": {"type": "github", "repo": "JFeimster/partner-enablement-os", "path": "launch-kits/darwin-hanneman/launch-plan/darwin-30-day-launch-plan.md", "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/launch-kits/darwin-hanneman/launch-plan/darwin-30-day-launch-plan.md", "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/launch-kits/darwin-hanneman/launch-plan/darwin-30-day-launch-plan.md"},
+    "delivery": {"staticPageUrl": "/pages/assets/darwin-30-day-launch-plan.html", "downloadUrl": "", "driveFileId": "", "driveUrl": "", "copyMode": "markdown-source", "primaryAction": "view-on-site"},
+    "actions": ["open-page", "open-source", "copy-path", "copy-raw-url"],
+    "tags": ["darwin-hanneman", "launch-plan", "30-day-launch"],
+    "complianceNotes": "Review for current positioning before public use. Do not claim guaranteed applications, approvals, funding, revenue, income, or outcomes.",
+    "lastVerified": "2026-05-08",
+    "order": 9
+  },
+  {
+    "id": "darwin-10-outreach-scripts",
+    "title": "Darwin 10 Outreach Scripts",
+    "description": "Darwin-specific outreach scripts for referral partners and business owner conversations.",
+    "assetType": "script-pack",
+    "category": "launch-kits",
+    "audience": ["darwin-hanneman", "funding-partners", "operators"],
+    "partnerSpecific": true,
+    "relatedPartner": "darwin-hanneman",
+    "status": "ready",
+    "usefulness": "ready-to-use",
+    "source": {"type": "github", "repo": "JFeimster/partner-enablement-os", "path": "launch-kits/darwin-hanneman/scripts/10-outreach-scripts.md", "url": "https://github.com/JFeimster/partner-enablement-os/blob/main/launch-kits/darwin-hanneman/scripts/10-outreach-scripts.md", "rawUrl": "https://raw.githubusercontent.com/JFeimster/partner-enablement-os/main/launch-kits/darwin-hanneman/scripts/10-outreach-scripts.md"},
+    "delivery": {"staticPageUrl": "/pages/assets/darwin-10-outreach-scripts.html", "downloadUrl": "", "driveFileId": "", "driveUrl": "", "copyMode": "markdown-source", "primaryAction": "view-on-site"},
+    "actions": ["open-page", "open-source", "copy-path", "copy-raw-url"],
+    "tags": ["darwin-hanneman", "outreach-scripts", "script-pack"],
+    "complianceNotes": "Use outreach scripts as conversation aids only. Do not promise approval, funding, amounts, terms, timing, revenue, income, or outcomes.",
+    "lastVerified": "2026-05-08",
+    "order": 10
   },
   {
     "id": "strategic-funding-bridge-darwin",
@@ -326,217 +195,17 @@
     "description": "A Darwin-specific Google Drive PDF positioned for bank manager and business banking referral conversations.",
     "assetType": "drive-pdf",
     "category": "bank-manager-resources",
-    "audience": [
-      "bank-managers",
-      "business-bankers",
-      "credit-union-contacts"
-    ],
+    "audience": ["bank-managers", "business-bankers", "credit-union-contacts"],
     "partnerSpecific": true,
     "relatedPartner": "darwin-hanneman",
     "status": "ready-after-permission-check",
     "usefulness": "ready-to-link-after-review",
-    "source": {
-      "type": "google-drive",
-      "repo": "",
-      "path": "",
-      "url": "https://drive.google.com/file/d/1J1mCQA7AB34xwCdEWNpU64sqdtcFuio-/view",
-      "rawUrl": ""
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/launch-kits/darwin-hanneman.html",
-      "downloadUrl": "https://drive.google.com/file/d/1J1mCQA7AB34xwCdEWNpU64sqdtcFuio-/view",
-      "driveFileId": "1J1mCQA7AB34xwCdEWNpU64sqdtcFuio-",
-      "driveUrl": "https://drive.google.com/file/d/1J1mCQA7AB34xwCdEWNpU64sqdtcFuio-/view",
-      "copyMode": "link-only",
-      "primaryAction": "view-drive"
-    },
-    "actions": [
-      "view-drive",
-      "copy-drive-url"
-    ],
-    "tags": [
-      "darwin-hanneman",
-      "bank-manager",
-      "drive-pdf",
-      "referral-handout"
-    ],
+    "source": {"type": "google-drive", "repo": "", "path": "", "url": "https://drive.google.com/file/d/1J1mCQA7AB34xwCdEWNpU64sqdtcFuio-/view", "rawUrl": ""},
+    "delivery": {"staticPageUrl": "/pages/launch-kits/darwin-hanneman.html", "downloadUrl": "https://drive.google.com/file/d/1J1mCQA7AB34xwCdEWNpU64sqdtcFuio-/view", "driveFileId": "1J1mCQA7AB34xwCdEWNpU64sqdtcFuio-", "driveUrl": "https://drive.google.com/file/d/1J1mCQA7AB34xwCdEWNpU64sqdtcFuio-/view", "copyMode": "link-only", "primaryAction": "view-drive"},
+    "actions": ["view-drive", "copy-drive-url"],
+    "tags": ["darwin-hanneman", "bank-manager", "drive-pdf"],
     "complianceNotes": "Visual/manual compliance review needed because PDF text extraction was not available. Permission check needed before public use.",
-    "lastVerified": "2026-05-07",
-    "order": 8
-  },
-  {
-    "id": "darwin-bank-manager-handout-pdf",
-    "title": "Darwin Bank Manager Handout PDF",
-    "description": "A Darwin-specific bank manager handout PDF stored in Google Drive.",
-    "assetType": "drive-pdf",
-    "category": "bank-manager-resources",
-    "audience": [
-      "bank-managers"
-    ],
-    "partnerSpecific": true,
-    "relatedPartner": "darwin-hanneman",
-    "status": "needs-cleanup",
-    "usefulness": "ready-to-link-after-review",
-    "source": {
-      "type": "google-drive",
-      "repo": "",
-      "path": "",
-      "url": "https://drive.google.com/file/d/1XMQrDrf_0zypoxoDN8SzWCYwToQzW_z0/view",
-      "rawUrl": ""
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/launch-kits/darwin-hanneman.html",
-      "downloadUrl": "https://drive.google.com/file/d/1XMQrDrf_0zypoxoDN8SzWCYwToQzW_z0/view",
-      "driveFileId": "1XMQrDrf_0zypoxoDN8SzWCYwToQzW_z0",
-      "driveUrl": "https://drive.google.com/file/d/1XMQrDrf_0zypoxoDN8SzWCYwToQzW_z0/view",
-      "copyMode": "link-only",
-      "primaryAction": "view-drive"
-    },
-    "actions": [
-      "view-drive",
-      "copy-drive-url"
-    ],
-    "tags": [
-      "darwin-hanneman",
-      "bank-manager",
-      "drive-pdf",
-      "handout"
-    ],
-    "complianceNotes": "Likely duplicate/export of Darwin bank manager handout. Verify wording and sharing permissions before public use.",
-    "lastVerified": "2026-05-07",
-    "order": 9
-  },
-  {
-    "id": "referral-guide-for-bank-managers",
-    "title": "Referral Guide for Bank Managers",
-    "description": "A Google Docs referral guide for bank managers, business bankers, and credit union business contacts.",
-    "assetType": "google-doc",
-    "category": "bank-manager-resources",
-    "audience": [
-      "bank-managers",
-      "business-bankers",
-      "credit-union-contacts"
-    ],
-    "partnerSpecific": false,
-    "relatedPartner": "",
-    "status": "needs-cleanup",
-    "usefulness": "ready-to-link-after-review",
-    "source": {
-      "type": "google-drive",
-      "repo": "",
-      "path": "",
-      "url": "https://docs.google.com/document/d/16X5OWeGm8L4oenVEicDe4W6igWsfw4sXSMKbK10wClg/edit",
-      "rawUrl": ""
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/referral-partner-assets.html",
-      "downloadUrl": "https://docs.google.com/document/d/16X5OWeGm8L4oenVEicDe4W6igWsfw4sXSMKbK10wClg/edit",
-      "driveFileId": "16X5OWeGm8L4oenVEicDe4W6igWsfw4sXSMKbK10wClg",
-      "driveUrl": "https://docs.google.com/document/d/16X5OWeGm8L4oenVEicDe4W6igWsfw4sXSMKbK10wClg/edit",
-      "copyMode": "link-only",
-      "primaryAction": "view-drive"
-    },
-    "actions": [
-      "view-drive",
-      "copy-drive-url"
-    ],
-    "tags": [
-      "bank-manager",
-      "business-banker",
-      "credit-union",
-      "google-doc",
-      "referral-guide"
-    ],
-    "complianceNotes": "Contact placeholders must be completed before public use. Permission check needed before public publishing.",
-    "lastVerified": "2026-05-07",
-    "order": 10
-  },
-  {
-    "id": "advisor-cash-flow-bridge-pdf",
-    "title": "The Advisor Cash Flow Bridge PDF",
-    "description": "A Google Drive PDF for accountants and advisors focused on business owner cash-flow referral conversations.",
-    "assetType": "drive-pdf",
-    "category": "advisor-resources",
-    "audience": [
-      "accountants",
-      "advisors"
-    ],
-    "partnerSpecific": false,
-    "relatedPartner": "",
-    "status": "needs-cleanup",
-    "usefulness": "ready-to-link-after-review",
-    "source": {
-      "type": "google-drive",
-      "repo": "",
-      "path": "",
-      "url": "https://drive.google.com/file/d/1eh8_4Lx_yH5hseFLyL0hYCE2jtzhLvf7/view",
-      "rawUrl": ""
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/referral-partner-assets.html",
-      "downloadUrl": "https://drive.google.com/file/d/1eh8_4Lx_yH5hseFLyL0hYCE2jtzhLvf7/view",
-      "driveFileId": "1eh8_4Lx_yH5hseFLyL0hYCE2jtzhLvf7",
-      "driveUrl": "https://drive.google.com/file/d/1eh8_4Lx_yH5hseFLyL0hYCE2jtzhLvf7/view",
-      "copyMode": "link-only",
-      "primaryAction": "view-drive"
-    },
-    "actions": [
-      "view-drive",
-      "copy-drive-url"
-    ],
-    "tags": [
-      "accountants",
-      "advisors",
-      "cash-flow",
-      "drive-pdf",
-      "referral-asset"
-    ],
-    "complianceNotes": "Review for partner-specific language and claims before publishing. Permission check needed before public use.",
-    "lastVerified": "2026-05-07",
+    "lastVerified": "2026-05-08",
     "order": 11
-  },
-  {
-    "id": "advisory-boundary-video",
-    "title": "The Advisory Boundary Video",
-    "description": "A Google Drive video asset for advisor-facing training around boundaries, responsible referrals, and professional positioning.",
-    "assetType": "video",
-    "category": "compliance-training",
-    "audience": [
-      "accountants",
-      "attorneys",
-      "advisors"
-    ],
-    "partnerSpecific": false,
-    "relatedPartner": "",
-    "status": "needs-cleanup",
-    "usefulness": "potentially-high-value",
-    "source": {
-      "type": "google-drive",
-      "repo": "",
-      "path": "",
-      "url": "https://drive.google.com/file/d/1k02bEJ3Kn1wLyNsJVBQ8LTpu77lH0TTv/view",
-      "rawUrl": ""
-    },
-    "delivery": {
-      "staticPageUrl": "/pages/training.html",
-      "downloadUrl": "https://drive.google.com/file/d/1k02bEJ3Kn1wLyNsJVBQ8LTpu77lH0TTv/view",
-      "driveFileId": "1k02bEJ3Kn1wLyNsJVBQ8LTpu77lH0TTv",
-      "driveUrl": "https://drive.google.com/file/d/1k02bEJ3Kn1wLyNsJVBQ8LTpu77lH0TTv/view",
-      "copyMode": "link-only",
-      "primaryAction": "view-drive"
-    },
-    "actions": [
-      "view-drive",
-      "copy-drive-url"
-    ],
-    "tags": [
-      "advisor-training",
-      "compliance-training",
-      "video",
-      "professional-boundaries"
-    ],
-    "complianceNotes": "Public video needs disclaimer and claim review before wide publishing. Permission check needed before public use.",
-    "lastVerified": "2026-05-07",
-    "order": 12
   }
 ]
