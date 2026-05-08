@@ -6,7 +6,7 @@
     <title>Partner Resource Library | Partner Enablement OS</title>
     <meta
       name="description"
-      content="Search and filter Partner Enablement OS resources, categories, launch assets, scripts, trackers, and compliance guides."
+      content="Search and launch real Partner Enablement OS assets from GitHub source files and Google Drive exports."
     >
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://partner-enablement-os.vercel.app/pages/partner-resource-library.html">
@@ -14,7 +14,7 @@
     <meta property="og:title" content="Partner Resource Library | Partner Enablement OS">
     <meta
       property="og:description"
-      content="The main searchable resource hub for Moonshine Capital Partners."
+      content="The main asset launcher for Moonshine Capital Partner resources, source files, Drive exports, scripts, trackers, and launch kits."
     >
     <meta property="og:url" content="https://partner-enablement-os.vercel.app/pages/partner-resource-library.html">
     <link rel="stylesheet" href="/assets/css/styles.css">
@@ -64,59 +64,59 @@
         <section class="hero" aria-labelledby="page-title">
           <div class="container hero-grid">
             <div class="hero-copy reveal">
-              <p class="eyebrow">Resource Library</p>
-              <h1 id="page-title">Find the right Partner asset before your tabs start breeding.</h1>
+              <p class="eyebrow">Asset Launcher</p>
+              <h1 id="page-title">Open the actual assets. No more brochure fog.</h1>
               <p class="hero-lede">
-                Search and filter launch plans, trackers, scripts, referral assets,
-                compliance guides, and prompt packs. Everything is built around responsible
-                Partner communication and Moonshine Capital’s source-of-truth workflow.
+                The Resource Library now acts as the Partner Enablement OS asset launcher.
+                Some assets open GitHub source files, some open Google Drive exports, and
+                some are marked for cleanup before field use.
               </p>
 
               <div class="hero-actions" aria-label="Primary actions">
-                <a class="button button-primary" href="#search">Search Resources</a>
-                <a class="button button-secondary" href="#filters">Filter Library</a>
+                <a class="button button-primary" href="#use-these-now">Use These Now</a>
+                <a class="button button-secondary" href="#all-resources">Browse Resources</a>
               </div>
 
-              <div class="hero-meta" aria-label="Library stats">
+              <div class="hero-meta" aria-label="Library facts">
+                <span class="pill"><strong>GitHub</strong> Source of Truth</span>
+                <span class="pill"><strong>Drive</strong> Export Layer</span>
                 <span class="pill"><strong>Resources</strong> <span data-resource-count>0</span></span>
-                <span class="pill"><strong>Search</strong> Client-side</span>
-                <span class="pill"><strong>Data</strong> Local JSON</span>
               </div>
             </div>
 
             <aside class="command-panel reveal" aria-labelledby="library-panel-title">
               <div class="panel-top">
                 <div>
-                  <p class="panel-label">Library Console</p>
-                  <h2 id="library-panel-title">How to use it</h2>
+                  <p class="panel-label">Asset Console</p>
+                  <h2 id="library-panel-title">What the buttons mean</h2>
                 </div>
-                <span class="status-dot">JSON Ready</span>
+                <span class="status-dot">Actionable</span>
               </div>
 
               <ol class="panel-list">
                 <li class="panel-item">
                   <span class="panel-num">01</span>
                   <div>
-                    <h3>Search first</h3>
-                    <p>Use plain language like “bank manager,” “rates,” “Daily 5,” or “Darwin.”</p>
+                    <h3>Open Source</h3>
+                    <p>Open the canonical GitHub markdown file.</p>
                   </div>
-                  <span class="panel-tag">Search</span>
+                  <span class="panel-tag">GitHub</span>
                 </li>
                 <li class="panel-item">
                   <span class="panel-num">02</span>
                   <div>
-                    <h3>Filter next</h3>
-                    <p>Narrow by category, Partner type, status, or featured resources.</p>
+                    <h3>View Drive Asset</h3>
+                    <p>Open a Google Drive PDF, Doc, or video export. Permission may still need review.</p>
                   </div>
-                  <span class="panel-tag">Filter</span>
+                  <span class="panel-tag">Drive</span>
                 </li>
                 <li class="panel-item">
                   <span class="panel-num">03</span>
                   <div>
-                    <h3>Check compliance</h3>
-                    <p>Funding-related copy must avoid guarantees and use provider criteria language.</p>
+                    <h3>Copy Path</h3>
+                    <p>Copy the repo path or Drive URL for Notion, docs, CRM notes, or follow-up.</p>
                   </div>
-                  <span class="panel-tag">Review</span>
+                  <span class="panel-tag">Copy</span>
                 </li>
               </ol>
             </aside>
@@ -129,8 +129,8 @@
               <p class="eyebrow">Search</p>
               <h2 id="search-title">Search across resources, categories, launch kits, and safe language.</h2>
               <p>
-                Search results are built from local JSON data. No database, no external
-                dependency, no SaaS raccoon hiding under the floorboards.
+                Search still uses the static data files. GitHub markdown remains the
+                source-of-truth layer. Google Drive is for exported and shareable assets.
               </p>
             </div>
 
@@ -140,7 +140,7 @@
                 id="site-search"
                 data-site-search
                 type="search"
-                placeholder="Try: bank manager, rates, Daily 5, compliance, Darwin"
+                placeholder="Try: tracker, Darwin, bank manager, intake, referral, compliance"
                 aria-describedby="search-help"
                 style="width: 100%; margin-top: 0.75rem; padding: 1rem 1.1rem; border: 1px solid var(--color-line-soft); border-radius: var(--radius-md); background: rgba(255, 255, 255, 0.045); color: var(--color-text);"
               >
@@ -151,8 +151,8 @@
 
             <div class="disclaimer reveal" data-search-empty hidden>
               <p>
-                No matches found. Try a broader term like “compliance,” “referral,”
-                “tracker,” “script,” or “Partner.”
+                No matching assets found. Try clearing filters or searching for tracker,
+                script, Darwin, launch plan, referral, or bank manager.
               </p>
             </div>
 
@@ -160,116 +160,29 @@
           </div>
         </section>
 
-        <section class="section" id="filters" aria-labelledby="filters-title">
+        <section class="section" id="use-these-now" aria-labelledby="usable-title">
           <div class="container">
             <div class="section-header reveal">
-              <p class="eyebrow">Filters</p>
-              <h2 id="filters-title">Narrow the library by job-to-be-done.</h2>
+              <p class="eyebrow">Use These Now</p>
+              <h2 id="usable-title">Real assets with real actions.</h2>
               <p>
-                Use filters when you already know the asset type you need. If you are not
-                sure, search first and let the JSON gremlins do something useful for once.
+                These cards are rendered from the asset registry. “Ready” means usable now.
+                “Needs cleanup” or “permission check needed” means review before sending into the field.
               </p>
             </div>
 
-            <div class="grid grid-4">
-              <div class="card reveal">
-                <label class="panel-label" for="filter-category">Category</label>
-                <select
-                  id="filter-category"
-                  data-resource-filter
-                  data-filter-key="category"
-                  style="width: 100%; margin-top: 0.75rem; padding: 0.9rem; border: 1px solid var(--color-line-soft); border-radius: var(--radius-sm); background: #10141d; color: var(--color-text);"
-                >
-                  <option value="">All categories</option>
-                  <option value="getting-started">Getting Started</option>
-                  <option value="daily-actions">Daily Actions</option>
-                  <option value="lead-generation">Lead Generation</option>
-                  <option value="referral-partner-outreach">Referral Partner Outreach</option>
-                  <option value="product-training">Product Training</option>
-                  <option value="crm-tracking">CRM & Tracking</option>
-                  <option value="social-media-assets">Social Media Assets</option>
-                  <option value="email-scripts">Email Scripts</option>
-                  <option value="compliance">Compliance</option>
-                  <option value="deal-submission">Deal Submission</option>
-                  <option value="faq">FAQ</option>
-                  <option value="recommended-tools">Recommended Tools</option>
-                </select>
-              </div>
-
-              <div class="card reveal">
-                <label class="panel-label" for="filter-partner-type">Partner Type</label>
-                <select
-                  id="filter-partner-type"
-                  data-resource-filter
-                  data-filter-key="partnerType"
-                  style="width: 100%; margin-top: 0.75rem; padding: 0.9rem; border: 1px solid var(--color-line-soft); border-radius: var(--radius-sm); background: #10141d; color: var(--color-text);"
-                >
-                  <option value="">All Partner types</option>
-                  <option value="funding-partner">Funding Partner</option>
-                  <option value="referral-partner">Referral Partner</option>
-                  <option value="affiliate-partner">Affiliate Partner</option>
-                  <option value="operator">Operator</option>
-                  <option value="broker">Broker</option>
-                  <option value="channel-partner">Channel Partner</option>
-                </select>
-              </div>
-
-              <div class="card reveal">
-                <label class="panel-label" for="filter-status">Status</label>
-                <select
-                  id="filter-status"
-                  data-resource-filter
-                  data-filter-key="status"
-                  style="width: 100%; margin-top: 0.75rem; padding: 0.9rem; border: 1px solid var(--color-line-soft); border-radius: var(--radius-sm); background: #10141d; color: var(--color-text);"
-                >
-                  <option value="">All statuses</option>
-                  <option value="planned">Planned</option>
-                  <option value="draft">Draft</option>
-                  <option value="prototype">Prototype</option>
-                  <option value="published">Published</option>
-                </select>
-              </div>
-
-              <div class="card reveal">
-                <label class="panel-label" for="filter-featured">Featured</label>
-                <select
-                  id="filter-featured"
-                  data-resource-filter
-                  data-filter-key="featured"
-                  style="width: 100%; margin-top: 0.75rem; padding: 0.9rem; border: 1px solid var(--color-line-soft); border-radius: var(--radius-sm); background: #10141d; color: var(--color-text);"
-                >
-                  <option value="">All resources</option>
-                  <option value="true">Featured only</option>
-                </select>
-              </div>
-            </div>
+            <div class="grid grid-3" data-usable-assets></div>
           </div>
         </section>
 
-        <section class="section section-tight" aria-labelledby="featured-title">
+        <section class="section section-tight" aria-labelledby="categories-title">
           <div class="container">
             <div class="section-header reveal">
-              <p class="eyebrow">Featured Resources</p>
-              <h2 id="featured-title">Start here when you need the important stuff.</h2>
-              <p>
-                Featured resources are the current priority assets for Partner activation,
-                referral outreach, tracking, prompts, launch kits, and compliance.
-              </p>
-            </div>
-
-            <div class="grid grid-3" data-featured-resources data-limit="6"></div>
-          </div>
-        </section>
-
-        <section class="section" aria-labelledby="categories-title">
-          <div class="container">
-            <div class="section-header reveal">
-              <p class="eyebrow">Categories</p>
+              <p class="eyebrow">Resource Categories</p>
               <h2 id="categories-title">Browse by operating lane.</h2>
               <p>
-                Categories map the resource hub to real Partner work: onboarding,
-                daily actions, lead generation, referral outreach, scripts, tracking,
-                compliance, and tools.
+                Categories organize the library, but the asset registry controls what can
+                actually be opened, copied, downloaded, or reviewed.
               </p>
             </div>
 
@@ -277,18 +190,63 @@
           </div>
         </section>
 
-        <section class="section section-tight" aria-labelledby="all-resources-title">
+        <section class="section" aria-labelledby="featured-title">
+          <div class="container">
+            <div class="section-header reveal">
+              <p class="eyebrow">Featured Resources</p>
+              <h2 id="featured-title">Priority resource cards.</h2>
+              <p>
+                These resources reference verified GitHub source files, Google Drive assets,
+                static pages, or clearly marked cleanup items.
+              </p>
+            </div>
+
+            <div class="grid grid-3" data-featured-resources data-limit="6"></div>
+          </div>
+        </section>
+
+        <section class="section section-tight" id="all-resources" aria-labelledby="all-resources-title">
           <div class="container">
             <div class="section-header reveal">
               <p class="eyebrow">All Resources</p>
-              <h2 id="all-resources-title">The JSON-powered card wall.</h2>
+              <h2 id="all-resources-title">Resource cards connected to the asset registry.</h2>
               <p>
-                These cards are rendered from <span class="pill">data/resources.json</span>.
-                Empty download URLs are intentionally ignored so nobody gets sent to a broken asset graveyard.
+                Cards now show useful actions where source files or Drive exports exist.
+                Broken download buttons are not rendered.
               </p>
             </div>
 
             <div class="grid grid-3" data-resource-grid></div>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="action-explanation-title">
+          <div class="container">
+            <div class="featured-card reveal">
+              <div>
+                <p class="eyebrow">Asset Action Rules</p>
+                <h2 id="action-explanation-title">Source, export, review, then use.</h2>
+                <p>
+                  GitHub markdown is the canonical source. Google Drive is the exported
+                  and shareable layer. If an asset is marked needs cleanup, review it
+                  before field use.
+                </p>
+                <ul class="check-list">
+                  <li>Use GitHub source files for canonical edits.</li>
+                  <li>Use raw markdown links for copying source into Notion, Docs, or internal notes.</li>
+                  <li>Use Google Drive links for PDFs, Docs, videos, and shareable exports.</li>
+                  <li>Check permission and compliance status before sharing Drive assets publicly.</li>
+                </ul>
+              </div>
+
+              <aside class="card" aria-label="Resource compliance reminder">
+                <p class="panel-label">Compliance Reminder</p>
+                <p>
+                  Funding options, approvals, terms, amounts, and timing are not guaranteed.
+                  Provider criteria apply and available options depend on the business profile.
+                </p>
+              </aside>
+            </div>
           </div>
         </section>
       </main>
