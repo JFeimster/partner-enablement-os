@@ -8,9 +8,9 @@
     "partnerType": "funding-partner",
     "umbrellaTerm": "Partner",
     "title": "Darwin Hanneman Launch Kit",
-    "summary": "Darwin Hanneman is a relationship-first commercial funding partner backed by Moonshine Capital. His launch strategy focuses on referral partners who already know business owners with funding problems.",
+    "summary": "Darwin Hanneman is a relationship-first commercial funding Partner backed by Moonshine Capital. His launch strategy focuses on referral partners who already know business owners with funding problems.",
     "safePositioning": "Darwin helps business owners explore funding options that may be available based on business profile. Provider criteria apply, and approval, terms, amounts, and timing are not guaranteed.",
-    "restrictedPositioning": "Do not position Darwin as guaranteeing approvals, specific rates, funding amounts, timelines, qualification, or outcomes.",
+    "restrictedPositioning": "Do not position Darwin as guaranteeing approvals, specific rates, funding amounts, timelines, qualification, revenue, income, or outcomes.",
     "bestFitLanes": [
       "Bank managers",
       "Accountants",
@@ -50,8 +50,19 @@
       "partner-weekly-review-template",
       "compliance-safe-funding-language-guide"
     ],
-    "profilePage": "/pages/darwin-hanneman.html",
+    "assetRegistryIds": [
+      "darwin-launch-kit-index",
+      "darwin-partner-profile",
+      "darwin-30-day-launch-plan",
+      "strategic-funding-bridge-darwin",
+      "darwin-bank-manager-handout-pdf",
+      "advisor-cash-flow-bridge-pdf"
+    ],
+    "profilePage": "/pages/launch-kits/darwin-hanneman.html",
+    "pageUrl": "/pages/launch-kits/darwin-hanneman.html",
+    "canonicalUrl": "https://partner-enablement-os.vercel.app/pages/launch-kits/darwin-hanneman.html",
     "sourceFolder": "launch-kits/darwin-hanneman/",
+    "launchPlanSourcePath": "launch-kits/darwin-hanneman/launch-plan/darwin-30-day-launch-plan.md",
     "downloadUrl": "",
     "featured": true,
     "complianceReviewed": false,

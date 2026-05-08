@@ -16,9 +16,9 @@
     "navGroup": "primary"
   },
   {
-    "label": "Resources",
+    "label": "Resource Library",
     "url": "/pages/partner-resource-library.html",
-    "description": "Searchable Partner resource library.",
+    "description": "Actionable Partner resource and asset launcher.",
     "order": 3,
     "visible": true,
     "navGroup": "primary"
@@ -32,9 +32,9 @@
     "navGroup": "primary"
   },
   {
-    "label": "Referral Assets",
-    "url": "/pages/referral-partner-assets.html",
-    "description": "Handouts, scripts, and explainers for referral relationships.",
+    "label": "Compliance",
+    "url": "/pages/compliance.html",
+    "description": "Safe language, restricted claims, and funding disclaimers.",
     "order": 5,
     "visible": true,
     "navGroup": "primary"
@@ -42,10 +42,10 @@
   {
     "label": "Scripts",
     "url": "/pages/scripts.html",
-    "description": "Conversation, email, and follow-up scripts.",
+    "description": "Conversation, email, referral, and follow-up scripts.",
     "order": 6,
     "visible": true,
-    "navGroup": "primary"
+    "navGroup": "secondary"
   },
   {
     "label": "Trackers",
@@ -53,7 +53,7 @@
     "description": "Daily and weekly Partner activity trackers.",
     "order": 7,
     "visible": true,
-    "navGroup": "primary"
+    "navGroup": "secondary"
   },
   {
     "label": "Prompts",
@@ -61,21 +61,13 @@
     "description": "AI prompts for launch kits, scripts, reviews, and resource creation.",
     "order": 8,
     "visible": true,
-    "navGroup": "primary"
-  },
-  {
-    "label": "Compliance",
-    "url": "/pages/compliance.html",
-    "description": "Safe language, restricted claims, and funding disclaimers.",
-    "order": 9,
-    "visible": true,
-    "navGroup": "primary"
+    "navGroup": "secondary"
   },
   {
     "label": "Tools",
     "url": "/pages/tools.html",
     "description": "Future calculators, worksheets, scorecards, and Partner workflow tools.",
-    "order": 10,
+    "order": 9,
     "visible": true,
     "navGroup": "secondary"
   },
@@ -83,7 +75,7 @@
     "label": "Training",
     "url": "/pages/training.html",
     "description": "Partner onboarding, responsible funding language, referral strategy, and workflow training.",
-    "order": 11,
+    "order": 10,
     "visible": true,
     "navGroup": "secondary"
   },
@@ -91,16 +83,18 @@
     "label": "About",
     "url": "/pages/about.html",
     "description": "What Partner Enablement OS is and how the stack should be treated.",
-    "order": 12,
+    "order": 11,
     "visible": true,
     "navGroup": "secondary"
   },
   {
     "label": "Darwin Hanneman",
-    "url": "/pages/darwin-hanneman.html",
+    "url": "/pages/launch-kits/darwin-hanneman.html",
     "description": "Prototype Partner launch kit page for Darwin Hanneman.",
-    "order": 13,
+    "order": 12,
     "visible": true,
-    "navGroup": "secondary"
+    "navGroup": "launch-kit",
+    "isPartnerSpecific": true,
+    "relatedPartner": "darwin-hanneman"
   }
 ]
