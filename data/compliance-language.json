@@ -1,0 +1,66 @@
+{
+  "ecosystemBrand": "Moonshine Capital",
+  "siteName": "Partner Enablement OS",
+  "purpose": "Provide Partners with safe language patterns for funding-related conversations, resources, scripts, handouts, and launch kits.",
+  "defaultDisclaimer": "Funding options, approvals, terms, amounts, and timing are not guaranteed. Provider criteria apply and available options depend on the business profile.",
+  "approvedPhrases": [
+    "explore funding options",
+    "may be available",
+    "based on business profile",
+    "provider criteria apply",
+    "approval, terms, amounts, and timing are not guaranteed",
+    "one application helps identify possible funding paths",
+    "when traditional financing is delayed, unavailable, or not the right fit today"
+  ],
+  "restrictedPhrases": [
+    "guaranteed approval",
+    "everyone qualifies",
+    "credit does not matter",
+    "same-day funding for everyone",
+    "any amount available",
+    "we approve what banks deny",
+    "no documents needed",
+    "instant funding guaranteed"
+  ],
+  "safeRewriteExamples": [
+    {
+      "unsafe": "Guaranteed approval for every business owner.",
+      "safe": "Business owners can explore funding options that may be available based on their business profile. Provider criteria apply."
+    },
+    {
+      "unsafe": "Get any amount you need today.",
+      "safe": "Available options, amounts, terms, and timing depend on the business profile and provider criteria."
+    },
+    {
+      "unsafe": "Credit does not matter.",
+      "safe": "A business profile may be reviewed across multiple factors, and provider criteria apply."
+    },
+    {
+      "unsafe": "We approve what banks deny.",
+      "safe": "When traditional financing is delayed, unavailable, or not the right fit today, one application may help identify possible funding paths."
+    },
+    {
+      "unsafe": "No documents needed and instant funding guaranteed.",
+      "safe": "Documentation requirements, review timelines, and possible funding options vary by provider and business profile."
+    }
+  ],
+  "partnerGuidelines": [
+    "Use Partner as the umbrella term unless a resource is specifically about referral partners, funding partners, brokers, or another defined lane.",
+    "Do not guarantee approval, funding amounts, rates, terms, timelines, qualification, or outcomes.",
+    "Use exploratory language when discussing funding options.",
+    "Explain that provider criteria apply.",
+    "Avoid implying that all business owners qualify.",
+    "Avoid comparing the ecosystem to banks in a way that implies guaranteed approval.",
+    "Use the default disclaimer on funding-related pages, handouts, scripts, and partner-facing assets.",
+    "Escalate any uncertain claim for review before publishing."
+  ],
+  "claimReviewChecklist": [
+    "Does the copy avoid approval guarantees?",
+    "Does the copy avoid specific rate, term, amount, or timeline promises?",
+    "Does the copy explain that provider criteria apply?",
+    "Does the copy avoid saying or implying that everyone qualifies?",
+    "Does the copy frame the process as exploring possible funding paths?",
+    "Does the copy include or align with the default disclaimer?"
+  ],
+  "lastUpdated": "2026-05-07"
+}
