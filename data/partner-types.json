@@ -1,0 +1,127 @@
+[
+  {
+    "id": "funding-partner",
+    "name": "Funding Partner",
+    "umbrellaTerm": "Partner",
+    "description": "A Partner who introduces business owners to funding options through the Moonshine Capital ecosystem.",
+    "primaryUseCases": [
+      "business-owner-conversations",
+      "referral-partner-outreach",
+      "launch-kit-execution",
+      "follow-up"
+    ],
+    "commonResources": [
+      "new-partner-7-day-launch-plan",
+      "daily-5-tracker",
+      "business-funding-conversation-script",
+      "compliance-safe-funding-language-guide"
+    ],
+    "safePositioning": "Funding Partners help business owners explore funding options that may be available based on business profile. Provider criteria apply, and approval, terms, amounts, and timing are not guaranteed.",
+    "restrictedPositioning": "Funding Partners should not guarantee approval, qualification, rates, amounts, timelines, or funding outcomes.",
+    "order": 1
+  },
+  {
+    "id": "referral-partner",
+    "name": "Referral Partner",
+    "umbrellaTerm": "Partner",
+    "description": "A professional or connector who refers business owners when funding needs arise or when traditional financing is delayed, unavailable, or not the right fit today.",
+    "primaryUseCases": [
+      "professional-referrals",
+      "warm-introductions",
+      "client-support",
+      "relationship-building"
+    ],
+    "commonResources": [
+      "bank-manager-referral-handout",
+      "referral-partner-outreach-kit",
+      "compliance-safe-funding-language-guide"
+    ],
+    "safePositioning": "Referral Partners can introduce business owners to a responsible next step for exploring funding options without making claims about approval, terms, amounts, rates, timing, or qualification.",
+    "restrictedPositioning": "Referral Partners should not present funding as guaranteed or imply that every business owner will qualify.",
+    "order": 2
+  },
+  {
+    "id": "affiliate-partner",
+    "name": "Affiliate Partner",
+    "umbrellaTerm": "Partner",
+    "description": "A Partner who uses content, community, audience relationships, or digital channels to introduce business owners to Moonshine Capital resources.",
+    "primaryUseCases": [
+      "content-distribution",
+      "audience-education",
+      "resource-sharing",
+      "partner-campaigns"
+    ],
+    "commonResources": [
+      "new-partner-7-day-launch-plan",
+      "daily-5-tracker",
+      "prompt-library-starter-pack",
+      "compliance-safe-funding-language-guide"
+    ],
+    "safePositioning": "Affiliate Partners can share educational resources and invite business owners to explore funding options based on business profile and provider criteria.",
+    "restrictedPositioning": "Affiliate Partners should not use hype claims, guaranteed approvals, instant funding guarantees, or unsupported income and funding outcome claims.",
+    "order": 3
+  },
+  {
+    "id": "operator",
+    "name": "Operator",
+    "umbrellaTerm": "Partner",
+    "description": "An internal or external team member supporting Partner onboarding, asset management, resource updates, CRM hygiene, reporting, and follow-up systems.",
+    "primaryUseCases": [
+      "asset-management",
+      "partner-onboarding",
+      "workflow-support",
+      "status-tracking",
+      "quality-control"
+    ],
+    "commonResources": [
+      "partner-weekly-review-template",
+      "prompt-library-starter-pack",
+      "new-partner-7-day-launch-plan",
+      "compliance-safe-funding-language-guide"
+    ],
+    "safePositioning": "Operators help keep Partner resources accurate, organized, and aligned with responsible funding language.",
+    "restrictedPositioning": "Operators should not approve unreviewed claims or publish resources that imply guaranteed funding outcomes.",
+    "order": 4
+  },
+  {
+    "id": "broker",
+    "name": "Broker",
+    "umbrellaTerm": "Partner",
+    "description": "A Partner with commercial finance or deal-routing experience who may help identify possible funding paths for business owners based on business profile and provider criteria.",
+    "primaryUseCases": [
+      "deal-intake",
+      "business-owner-conversations",
+      "provider-fit-review",
+      "follow-up"
+    ],
+    "commonResources": [
+      "business-funding-conversation-script",
+      "what-to-say-when-client-asks-about-rates",
+      "compliance-safe-funding-language-guide",
+      "partner-weekly-review-template"
+    ],
+    "safePositioning": "Brokers can help business owners explore possible funding paths. Approval, terms, amounts, and timing are not guaranteed.",
+    "restrictedPositioning": "Brokers should not promise specific approvals, rates, amounts, timing, or provider decisions before review.",
+    "order": 5
+  },
+  {
+    "id": "channel-partner",
+    "name": "Channel Partner",
+    "umbrellaTerm": "Partner",
+    "description": "A future Partner lane for organizations, communities, or platforms that may distribute Moonshine Capital resources through structured channel relationships.",
+    "primaryUseCases": [
+      "channel-enablement",
+      "community-distribution",
+      "strategic-partnerships",
+      "resource-syndication"
+    ],
+    "commonResources": [
+      "referral-partner-outreach-kit",
+      "prompt-library-starter-pack",
+      "compliance-safe-funding-language-guide"
+    ],
+    "safePositioning": "Channel Partners can help business owners access educational resources and explore possible funding options through approved workflows.",
+    "restrictedPositioning": "Channel Partners should not present funding as automatic, guaranteed, or universally available.",
+    "order": 6
+  }
+]
