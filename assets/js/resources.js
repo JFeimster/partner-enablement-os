@@ -52,7 +52,6 @@
         if (!response.ok) {
           throw new Error("Unable to load " + path + ": " + response.status);
         }
-
         return response.json();
       })
       .catch(function (error) {
@@ -85,35 +84,44 @@
       });
   }
 
-  function clearElement(element) {
-    if (!element) return;
-    while (element.firstChild) {
-      element.removeChild(element.firstChild);
+  function canReplace(container) {
+    return container && container.getAttribute("data-dynamic-replace") === "true";
+  }
+
+  function clearElement(container) {
+    if (!canReplace(container)) return;
+    while (container.firstChild) {
+      container.removeChild(container.firstChild);
     }
+  }
+
+  function isEmpty(container) {
+    return !container || !container.children.length;
+  }
+
+  function addFallbackMessage(container, message) {
+    if (!container || !isEmpty(container)) return;
+
+    const article = createElement("article", "card reveal");
+    const title = createElement("h3", "", "Dynamic cards unavailable");
+    const copy = createElement("p", "", message || "Static asset cards above remain available. Try refreshing or use the hardcoded source links on this page.");
+
+    article.appendChild(title);
+    article.appendChild(copy);
+    container.appendChild(article);
   }
 
   function createElement(tagName, className, text) {
     const element = document.createElement(tagName);
-
-    if (className) {
-      element.className = className;
-    }
-
-    if (text !== undefined && text !== null) {
-      element.textContent = text;
-    }
-
+    if (className) element.className = className;
+    if (text !== undefined && text !== null) element.textContent = text;
     return element;
   }
 
   function createBadge(text, label) {
     if (!text) return null;
-
     const badge = createElement("span", "pill", text);
-    if (label) {
-      badge.setAttribute("aria-label", label + ": " + text);
-    }
-
+    if (label) badge.setAttribute("aria-label", label + ": " + text);
     return badge;
   }
 
@@ -128,25 +136,20 @@
 
   function createLinkButton(label, url, variant) {
     if (!url) return null;
-
     const link = createElement("a", "button " + (variant || "button-secondary"), label);
     link.href = url;
-
     if (isExternalUrl(url)) {
       link.target = "_blank";
       link.rel = "noopener";
     }
-
     return link;
   }
 
   function createCopyButton(label, value, variant) {
     if (!value) return null;
-
     const button = createElement("button", "button " + (variant || "button-secondary"), label);
     button.type = "button";
     button.setAttribute("data-copy-value", value);
-
     button.addEventListener("click", function () {
       if (!navigator.clipboard) {
         button.textContent = "Copy Unavailable";
@@ -155,7 +158,6 @@
         }, 1500);
         return;
       }
-
       navigator.clipboard.writeText(value).then(function () {
         button.textContent = "Copied";
         window.setTimeout(function () {
@@ -163,7 +165,6 @@
         }, 1500);
       });
     });
-
     return button;
   }
 
@@ -185,9 +186,7 @@
   function buildAssetMap(assets) {
     const map = {};
     assets.forEach(function (asset) {
-      if (asset && asset.id) {
-        map[asset.id] = asset;
-      }
+      if (asset && asset.id) map[asset.id] = asset;
     });
     return map;
   }
@@ -211,7 +210,6 @@
     if (resource.primaryAssetId && state.assetsById[resource.primaryAssetId]) {
       return state.assetsById[resource.primaryAssetId];
     }
-
     const assets = getAssetsForResource(resource);
     return assets.length ? assets[0] : null;
   }
@@ -226,63 +224,28 @@
     const usefulnessFilter = normalize(state.filters.usefulness);
     const partnerSpecificFilter = normalize(state.filters.partnerSpecific);
     const relatedPartnerFilter = normalize(state.filters.relatedPartner);
-
     const assets = getAssetsForResource(resource);
     const primaryAsset = getPrimaryAsset(resource);
 
-    if (categoryFilter && normalize(resource.category) !== categoryFilter) {
-      return false;
-    }
-
-    if (
-      partnerTypeFilter &&
-      !toArray(resource.partnerType).map(normalize).includes(partnerTypeFilter)
-    ) {
-      return false;
-    }
-
-    if (statusFilter && normalize(resource.status) !== statusFilter) {
-      return false;
-    }
+    if (categoryFilter && normalize(resource.category) !== categoryFilter) return false;
+    if (partnerTypeFilter && !toArray(resource.partnerType).map(normalize).includes(partnerTypeFilter)) return false;
+    if (statusFilter && normalize(resource.status) !== statusFilter) return false;
 
     if (featuredFilter) {
       const wantsFeatured = ["true", "yes", "1", "featured"].includes(featuredFilter);
-      if (Boolean(resource.featured) !== wantsFeatured) {
-        return false;
-      }
+      if (Boolean(resource.featured) !== wantsFeatured) return false;
     }
 
-    if (assetTypeFilter && !assets.some(function (asset) {
-      return normalize(asset.assetType) === assetTypeFilter;
-    })) {
-      return false;
-    }
-
-    if (sourceTypeFilter && !assets.some(function (asset) {
-      return normalize(asset.source && asset.source.type) === sourceTypeFilter;
-    })) {
-      return false;
-    }
-
-    if (usefulnessFilter && !assets.some(function (asset) {
-      return normalize(asset.usefulness) === usefulnessFilter;
-    })) {
-      return false;
-    }
+    if (assetTypeFilter && !assets.some(function (asset) { return normalize(asset.assetType) === assetTypeFilter; })) return false;
+    if (sourceTypeFilter && !assets.some(function (asset) { return normalize(asset.source && asset.source.type) === sourceTypeFilter; })) return false;
+    if (usefulnessFilter && !assets.some(function (asset) { return normalize(asset.usefulness) === usefulnessFilter; })) return false;
 
     if (partnerSpecificFilter) {
       const wantsPartnerSpecific = ["true", "yes", "1", "partner-specific"].includes(partnerSpecificFilter);
-      if (!primaryAsset || Boolean(primaryAsset.partnerSpecific) !== wantsPartnerSpecific) {
-        return false;
-      }
+      if (!primaryAsset || Boolean(primaryAsset.partnerSpecific) !== wantsPartnerSpecific) return false;
     }
 
-    if (relatedPartnerFilter && !assets.some(function (asset) {
-      return normalize(asset.relatedPartner) === relatedPartnerFilter;
-    })) {
-      return false;
-    }
-
+    if (relatedPartnerFilter && !assets.some(function (asset) { return normalize(asset.relatedPartner) === relatedPartnerFilter; })) return false;
     return true;
   }
 
@@ -298,86 +261,52 @@
     if (sourceType && normalize(asset.source && asset.source.type) !== sourceType) return false;
     if (usefulness && normalize(asset.usefulness) !== usefulness) return false;
     if (status && normalize(asset.status) !== status) return false;
-
     return true;
   }
 
   function createCategoryCard(category) {
     const article = createElement("article", "card reveal");
     article.setAttribute("data-category-id", category.id || "");
-
     const icon = createElement("div", "card-icon", category.icon || "•");
     icon.setAttribute("aria-hidden", "true");
-
     const title = createElement("h3", "", category.name || "Resource Category");
     const description = createElement("p", "", category.description || "");
-
     const meta = createElement("div", "hero-meta");
-    meta.setAttribute("aria-label", "Category details");
-
     toArray(category.useCases).slice(0, 3).forEach(function (useCase) {
       appendBadge(meta, slugToLabel(useCase), "Use case");
     });
-
     article.appendChild(icon);
     article.appendChild(title);
-
-    if (description.textContent) {
-      article.appendChild(description);
-    }
-
-    if (meta.children.length) {
-      article.appendChild(meta);
-    }
-
+    if (description.textContent) article.appendChild(description);
+    if (meta.children.length) article.appendChild(meta);
     return article;
   }
 
   function appendAssetBadges(meta, asset) {
     if (!asset) return;
-
     appendBadge(meta, slugToLabel(asset.status), "Asset status");
     appendBadge(meta, slugToLabel(asset.usefulness), "Usefulness");
     appendBadge(meta, slugToLabel(asset.source && asset.source.type), "Source type");
     appendBadge(meta, asset.partnerSpecific ? "Partner-Specific" : "General", "Partner specificity");
-
-    if (asset.relatedPartner) {
-      appendBadge(meta, slugToLabel(asset.relatedPartner), "Related Partner");
-    }
+    if (asset.relatedPartner) appendBadge(meta, slugToLabel(asset.relatedPartner), "Related Partner");
   }
 
   function appendResourceBadges(meta, resource, primaryAsset) {
     appendBadge(meta, slugToLabel(resource.resourceType || "resource"), "Resource type");
     appendBadge(meta, slugToLabel(getResourceStatus(resource)), "Status");
-
-    if (resource.sourceStatus) {
-      appendBadge(meta, slugToLabel(resource.sourceStatus), "Source status");
-    }
-
-    if (resource.isUsableNow) {
-      appendBadge(meta, "Usable Now", "Usability");
-    }
-
-    if (resource.featured) {
-      appendBadge(meta, "Featured", "Featured resource");
-    }
-
-    if (resource.format) {
-      appendBadge(meta, resource.format, "Format");
-    }
-
+    if (resource.sourceStatus) appendBadge(meta, slugToLabel(resource.sourceStatus), "Source status");
+    if (resource.isUsableNow) appendBadge(meta, "Usable Now", "Usability");
+    if (resource.featured) appendBadge(meta, "Featured", "Featured resource");
+    if (resource.format) appendBadge(meta, resource.format, "Format");
     appendAssetBadges(meta, primaryAsset);
   }
 
   function appendAction(actions, actionElement) {
-    if (actionElement) {
-      actions.appendChild(actionElement);
-    }
+    if (actionElement) actions.appendChild(actionElement);
   }
 
   function appendAssetActions(actions, asset) {
     if (!asset) return;
-
     const source = asset.source || {};
     const delivery = asset.delivery || {};
     const driveUrl = delivery.driveUrl || source.url;
@@ -394,27 +323,17 @@
       appendAction(actions, createCopyButton("Copy Drive URL", driveUrl, "button-ghost"));
     }
 
-    if (downloadUrl && downloadUrl !== driveUrl) {
-      appendAction(actions, createLinkButton("Download", downloadUrl, "button-secondary"));
-    }
-
-    if (source.rawUrl && source.type !== "github") {
-      appendAction(actions, createLinkButton("Raw File", source.rawUrl, "button-secondary"));
-    }
-
-    if (source.path && source.type !== "github") {
-      appendAction(actions, createCopyButton("Copy Path", source.path, "button-ghost"));
-    }
+    if (downloadUrl && downloadUrl !== driveUrl) appendAction(actions, createLinkButton("Download", downloadUrl, "button-secondary"));
+    if (source.rawUrl && source.type !== "github") appendAction(actions, createLinkButton("Raw File", source.rawUrl, "button-secondary"));
+    if (source.path && source.type !== "github") appendAction(actions, createCopyButton("Copy Path", source.path, "button-ghost"));
   }
 
   function appendResourceActions(actions, resource, primaryAsset) {
     appendAction(actions, createLinkButton("View Page", resource.pageUrl, "button-secondary"));
-
     if (primaryAsset) {
       appendAssetActions(actions, primaryAsset);
       return;
     }
-
     appendAction(actions, createLinkButton("Open Source", resource.githubUrl, "button-primary"));
     appendAction(actions, createLinkButton("Raw Markdown", resource.rawUrl, "button-secondary"));
     appendAction(actions, createLinkButton("Download", resource.downloadUrl, "button-secondary"));
@@ -430,37 +349,23 @@
     const eyebrow = createElement("p", "panel-label", slugToLabel(asset.assetType || "asset"));
     const title = createElement("h3", "", asset.title || "Untitled Asset");
     const description = createElement("p", "", asset.description || "");
-
     const meta = createElement("div", "hero-meta");
-    meta.setAttribute("aria-label", "Asset details");
     appendAssetBadges(meta, asset);
-
     const actions = createElement("div", "card-actions");
     actions.style.marginTop = "1.35rem";
 
-    if (asset.delivery && asset.delivery.staticPageUrl) {
-      appendAction(actions, createLinkButton("View Page", asset.delivery.staticPageUrl, "button-secondary"));
-    }
-
+    if (asset.delivery && asset.delivery.staticPageUrl) appendAction(actions, createLinkButton("View Page", asset.delivery.staticPageUrl, "button-secondary"));
     appendAssetActions(actions, asset);
 
     article.appendChild(eyebrow);
     article.appendChild(title);
-
-    if (description.textContent) {
-      article.appendChild(description);
-    }
-
-    if (meta.children.length) {
-      article.appendChild(meta);
-    }
-
+    if (description.textContent) article.appendChild(description);
+    if (meta.children.length) article.appendChild(meta);
     if (asset.complianceNotes) {
       const safeNote = createElement("p", "small-print", asset.complianceNotes);
       safeNote.style.marginTop = "1rem";
       article.appendChild(safeNote);
     }
-
     if (actions.children.length) {
       article.appendChild(actions);
     } else {
@@ -469,7 +374,6 @@
       appendBadge(badgeWrap, asset.status === "needs-cleanup" ? "Needs Cleanup" : "Coming Soon", "Asset action status");
       article.appendChild(badgeWrap);
     }
-
     return article;
   }
 
@@ -480,34 +384,24 @@
     article.setAttribute("data-resource-category", resource.category || "");
     article.setAttribute("data-resource-status", getResourceStatus(resource));
 
-    const categoryLabel = getResourceCategoryLabel(resource);
-    const eyebrow = createElement("p", "panel-label", categoryLabel);
+    const eyebrow = createElement("p", "panel-label", getResourceCategoryLabel(resource));
     const title = createElement("h3", "", resource.title || "Untitled Resource");
     const description = createElement("p", "", resource.description || "");
-
     const meta = createElement("div", "hero-meta");
-    meta.setAttribute("aria-label", "Resource details");
     appendResourceBadges(meta, resource, primaryAsset);
-
     const actions = createElement("div", "card-actions");
     actions.style.marginTop = "1.35rem";
     appendResourceActions(actions, resource, primaryAsset);
 
     article.appendChild(eyebrow);
     article.appendChild(title);
-
-    if (description.textContent) {
-      article.appendChild(description);
-    }
-
+    if (description.textContent) article.appendChild(description);
     article.appendChild(meta);
-
     if (resource.safeLanguageNotes) {
       const safeNote = createElement("p", "small-print", resource.safeLanguageNotes);
       safeNote.style.marginTop = "1rem";
       article.appendChild(safeNote);
     }
-
     if (actions.children.length) {
       article.appendChild(actions);
     } else {
@@ -516,20 +410,28 @@
       appendBadge(badgeWrap, resource.status === "needs-cleanup" ? "Needs Cleanup" : "Coming Soon", "Resource action status");
       article.appendChild(badgeWrap);
     }
-
     return article;
+  }
+
+  function appendDynamicCards(container, items, createCard, fallbackMessage) {
+    if (!container) return;
+    if (canReplace(container)) clearElement(container);
+
+    const fragment = document.createDocumentFragment();
+    items.forEach(function (item) {
+      fragment.appendChild(createCard(item));
+    });
+
+    if (fragment.childNodes.length) {
+      container.appendChild(fragment);
+    }
+
+    addFallbackMessage(container, fallbackMessage);
   }
 
   function renderCategoryCards() {
     document.querySelectorAll(selectors.categoryGrid).forEach(function (container) {
-      clearElement(container);
-
-      const fragment = document.createDocumentFragment();
-      sortByOrder(state.categories).forEach(function (category) {
-        fragment.appendChild(createCategoryCard(category));
-      });
-
-      container.appendChild(fragment);
+      appendDynamicCards(container, sortByOrder(state.categories), createCategoryCard, "Resource category data did not load. Use the static asset cards above.");
     });
   }
 
@@ -537,14 +439,7 @@
     const filteredResources = sortByOrder(state.resources).filter(resourceMatchesFilters);
 
     document.querySelectorAll(selectors.resourceGrid).forEach(function (container) {
-      clearElement(container);
-
-      const fragment = document.createDocumentFragment();
-      filteredResources.forEach(function (resource) {
-        fragment.appendChild(createResourceCard(resource));
-      });
-
-      container.appendChild(fragment);
+      appendDynamicCards(container, filteredResources, createResourceCard, "Resource data did not load. Use the static asset cards above.");
     });
 
     document.querySelectorAll(selectors.count).forEach(function (element) {
@@ -558,88 +453,49 @@
     });
 
     document.querySelectorAll(selectors.featuredResources).forEach(function (container) {
-      clearElement(container);
-
       const limit = Number(container.getAttribute("data-limit") || 0);
       const items = limit > 0 ? featuredResources.slice(0, limit) : featuredResources;
-      const fragment = document.createDocumentFragment();
-
-      items.forEach(function (resource) {
-        fragment.appendChild(createResourceCard(resource));
-      });
-
-      container.appendChild(fragment);
+      appendDynamicCards(container, items, createResourceCard, "Featured resource data did not load. Use the static asset cards above.");
     });
   }
 
   function renderAssetGrids() {
     document.querySelectorAll(selectors.assetGrid).forEach(function (container) {
-      clearElement(container);
-
       const limit = Number(container.getAttribute("data-limit") || 0);
       const filteredAssets = sortByOrder(state.assets).filter(function (asset) {
         return assetMatchesContainerFilter(asset, container);
       });
       const items = limit > 0 ? filteredAssets.slice(0, limit) : filteredAssets;
-      const fragment = document.createDocumentFragment();
-
-      items.forEach(function (asset) {
-        fragment.appendChild(createAssetCard(asset));
-      });
-
-      container.appendChild(fragment);
+      appendDynamicCards(container, items, createAssetCard, "Asset registry cards did not load. Use the static source links above.");
     });
   }
 
   function renderUsableAssets() {
     document.querySelectorAll(selectors.usableAssets).forEach(function (container) {
-      clearElement(container);
-
       const limit = Number(container.getAttribute("data-limit") || 0);
       const filteredAssets = sortByOrder(state.assets).filter(function (asset) {
-        const isReady =
-          normalize(asset.status) === "ready" ||
-          normalize(asset.status) === "ready-after-permission-check";
-        const isUseful =
-          normalize(asset.usefulness) === "ready-to-use" ||
-          normalize(asset.usefulness) === "ready-to-link" ||
-          normalize(asset.usefulness) === "ready-to-link-after-review";
-
+        const isReady = normalize(asset.status) === "ready" || normalize(asset.status) === "ready-after-permission-check";
+        const isUseful = normalize(asset.usefulness) === "ready-to-use" || normalize(asset.usefulness) === "ready-to-link" || normalize(asset.usefulness) === "ready-to-link-after-review";
         return isReady && isUseful && assetMatchesContainerFilter(asset, container);
       });
-
       const items = limit > 0 ? filteredAssets.slice(0, limit) : filteredAssets;
-      const fragment = document.createDocumentFragment();
-
-      items.forEach(function (asset) {
-        fragment.appendChild(createAssetCard(asset));
-      });
-
-      container.appendChild(fragment);
+      appendDynamicCards(container, items, createAssetCard, "Usable asset data did not load. Use the hardcoded Use These Now cards above.");
     });
   }
 
   function updateFilterFromElement(element) {
     const key = element.getAttribute("data-filter-key") || element.name || "";
     if (!key) return;
-
-    if (element.type === "checkbox") {
-      state.filters[key] = element.checked ? element.value || "true" : "";
-      return;
-    }
-
-    state.filters[key] = element.value || "";
+    state.filters[key] = element.type === "checkbox" ? (element.checked ? element.value || "true" : "") : element.value || "";
   }
 
   function setupFilters() {
     document.querySelectorAll(selectors.filters).forEach(function (filterElement) {
       updateFilterFromElement(filterElement);
-
       filterElement.addEventListener("change", function () {
         updateFilterFromElement(filterElement);
         renderResources();
       });
-
       filterElement.addEventListener("input", function () {
         updateFilterFromElement(filterElement);
         renderResources();
@@ -653,10 +509,7 @@
     renderFeaturedResources();
     renderAssetGrids();
     renderUsableAssets();
-
-    if (window.PEOSReveal && typeof window.PEOSReveal.refresh === "function") {
-      window.PEOSReveal.refresh();
-    }
+    if (window.PEOSReveal && typeof window.PEOSReveal.refresh === "function") window.PEOSReveal.refresh();
   }
 
   function init() {
@@ -672,12 +525,14 @@
         state.resources = Array.isArray(results[1]) ? results[1] : [];
         state.assets = Array.isArray(results[2]) ? results[2] : [];
         state.assetsById = buildAssetMap(state.assets);
-
         setupFilters();
         renderAll();
       })
       .catch(function (error) {
         console.warn("Partner Enablement OS resource rendering warning:", error.message);
+        document.querySelectorAll(selectors.usableAssets + ", " + selectors.resourceGrid + ", " + selectors.featuredResources + ", " + selectors.assetGrid).forEach(function (container) {
+          addFallbackMessage(container, "Dynamic cards could not load. Use the static asset cards on this page.");
+        });
       });
   }
 
